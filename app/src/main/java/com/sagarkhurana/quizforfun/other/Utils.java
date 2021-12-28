@@ -49,23 +49,6 @@ public class Utils {
         return questions;
     }
 
-    public static Map<String,String> getRandomMathQuestions(int SIZE){
-        HashMap<String,String> questionsMap = new HashMap<>();
-        Map<String,String> originalQuestion = getMathQuestions();
-        int originalSize =  originalQuestion.size();
-        ArrayList<String> keyList = new ArrayList<String>(originalQuestion.keySet());
-
-        while (questionsMap.size()<=SIZE){
-            Random random = new Random();
-            int randomNumber = random.nextInt(originalSize);
-            String question = keyList.get(randomNumber);
-            if (!questionsMap.containsKey(question)){
-                questionsMap.put(question,originalQuestion.get(question));
-            }
-        }
-        return questionsMap;
-    }
-
 
 
     public static Map<String,Map<String,Boolean>> getLiteratureQuestions(){

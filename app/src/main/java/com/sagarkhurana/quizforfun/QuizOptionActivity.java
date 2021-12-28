@@ -19,6 +19,8 @@ public class QuizOptionActivity extends AppCompatActivity {
         CardView cvMath = findViewById(R.id.cvMath);
         CardView cvGeography = findViewById(R.id.cvGeography);
         CardView cvLiterature = findViewById(R.id.cvLiterature);
+        CardView cvCatD = findViewById(R.id.cvCatD);
+
 
         findViewById(R.id.imageViewQuizOption).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -50,6 +52,15 @@ public class QuizOptionActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(QuizOptionActivity.this, RandomQuizActivity.class);
                 intent.putExtra(Constants.SUBJECT,getString(R.string.literature));
+                startActivity(intent);
+            }
+        });
+
+        cvCatD.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(QuizOptionActivity.this, RandomQuizActivity.class);
+                intent.putExtra(Constants.SUBJECT,getString(R.string.catd));
                 startActivity(intent);
             }
         });

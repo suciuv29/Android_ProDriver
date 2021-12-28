@@ -67,7 +67,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="imagePath" value="C:\Users\Vlad\Desktop\c.png" />
+                                                <entry key="imagePath" value="C:\Users\Vlad\Desktop\d.png" />
                                                 <entry key="scalingPercent" value="35" />
                                               </map>
                                             </option>
@@ -92,7 +92,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\Vlad\Desktop\c.png" />
+                                                <entry key="imagePath" value="C:\Users\Vlad\Desktop\d.png" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -124,7 +124,7 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="c" />
+                                      <entry key="outputName" value="d" />
                                     </map>
                                   </option>
                                 </PersistentState>

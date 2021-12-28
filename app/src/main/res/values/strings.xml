@@ -35,6 +35,7 @@
     <string name="literature">Categoria C</string>
     <string name="geography">Categoria B</string>
     <string name="math">Categoria A</string>
+    <string name="catd">Categoria D</string>
     <string name="finish">Finalizare</string>
     <string name="next">Următoarea Întrebare</string>
     <string name="enter_answer">Scrie răspunsul</string>
@@ -48,6 +49,7 @@
     <string name="math_quiz">Quiz Categoria A</string>
     <string name="literature_quiz">Quiz Categoria C</string>
     <string name="geography_quiz">Quiz Categoria B</string>
+    <string name="catD_quiz">Quiz Categoria D</string>
     <string name="date">Data :</string>
     <string name="start_again">Încearcă din nou!</string>
 
