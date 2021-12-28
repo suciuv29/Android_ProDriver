@@ -31,22 +31,22 @@ public class RandomQuizActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_geography_or_literature_quiz);
+        setContentView(R.layout.activity_quiz_action);
 
         Intent intent = getIntent();
         String subject = intent.getStringExtra(Constants.SUBJECT);
 
         TextView tvTitle = findViewById(R.id.textView26);
 
-        if (subject.equals(getString(R.string.literature))) {
-            questionsAnswerMap = Utils.getRandomQuestions(this,getString(R.string.literature),Constants.QUESTION_SHOWING);
-            tvTitle.setText(getString(R.string.literature_quiz));
-        }else if(subject.equals(getString(R.string.geography))){
-            questionsAnswerMap = Utils.getRandomQuestions(this,getString(R.string.geography),Constants.QUESTION_SHOWING);
-            tvTitle.setText(getString(R.string.geography_quiz));
-        }else if(subject.equals(getString(R.string.math))){
-            questionsAnswerMap = Utils.getRandomQuestions(this,getString(R.string.math),Constants.QUESTION_SHOWING);
-            tvTitle.setText(getString(R.string.math_quiz));
+        if (subject.equals(getString(R.string.catc))) {
+            questionsAnswerMap = Utils.getRandomQuestions(this,getString(R.string.catc),Constants.QUESTION_SHOWING);
+            tvTitle.setText(getString(R.string.catc_quiz));
+        }else if(subject.equals(getString(R.string.catb))){
+            questionsAnswerMap = Utils.getRandomQuestions(this,getString(R.string.catb),Constants.QUESTION_SHOWING);
+            tvTitle.setText(getString(R.string.catb_quiz));
+        }else if(subject.equals(getString(R.string.cata))){
+            questionsAnswerMap = Utils.getRandomQuestions(this,getString(R.string.cata),Constants.QUESTION_SHOWING);
+            tvTitle.setText(getString(R.string.cata_quiz));
         }else{questionsAnswerMap = Utils.getRandomQuestions(this,getString(R.string.catd),Constants.QUESTION_SHOWING);
             tvTitle.setText(getString(R.string.catD_quiz));}
 
@@ -55,7 +55,7 @@ public class RandomQuizActivity extends AppCompatActivity {
 
         tvQuestion = findViewById(R.id.textView78);
         tvQuestionNumber = findViewById(R.id.textView18);
-        btnNext = findViewById(R.id.btnNextQuestionLiteratureAndGeography);
+        btnNext = findViewById(R.id.btnNextQuestion);
         radioGroup = findViewById(R.id.radioGroup);
 
         radioButton1 = findViewById(R.id.radioButton1);
@@ -63,7 +63,7 @@ public class RandomQuizActivity extends AppCompatActivity {
         radioButton3 = findViewById(R.id.radioButton3);
         radioButton4 = findViewById(R.id.radioButton4);
 
-        findViewById(R.id.btnNextQuestionLiteratureAndGeography).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.btnNextQuestion).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -91,7 +91,7 @@ public class RandomQuizActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.imageViewStartQuizGeographyOrLiterature).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.imageViewStartQuiz2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 finish();

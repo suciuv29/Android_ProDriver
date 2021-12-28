@@ -31,7 +31,7 @@
         app:layout_constraintTop_toTopOf="@+id/imageViewQuizOption" />
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cvMath"
+        android:id="@+id/cvCatA"
         style="@style/cardViewStyle"
         android:layout_width="match_parent"
         android:layout_height="@dimen/home_card_height"
@@ -53,7 +53,7 @@
                 style="@style/categoryHeadingTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/math"
+                android:text="@string/cata"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
@@ -76,14 +76,14 @@
 
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cvGeography"
+        android:id="@+id/cvCatB"
         style="@style/cardViewStyle"
         android:layout_width="0dp"
         android:layout_height="@dimen/home_card_height"
         android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="@+id/cvMath"
-        app:layout_constraintStart_toStartOf="@+id/cvMath"
-        app:layout_constraintTop_toBottomOf="@+id/cvMath">
+        app:layout_constraintEnd_toEndOf="@+id/cvCatA"
+        app:layout_constraintStart_toStartOf="@+id/cvCatA"
+        app:layout_constraintTop_toBottomOf="@+id/cvCatA">
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -96,7 +96,7 @@
                 style="@style/categoryHeadingTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/geography"
+                android:text="@string/catb"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
@@ -117,14 +117,14 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cvLiterature"
+        android:id="@+id/cvCatC"
         style="@style/cardViewStyle"
         android:layout_width="0dp"
         android:layout_height="@dimen/home_card_height"
         android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="@+id/cvGeography"
-        app:layout_constraintStart_toStartOf="@+id/cvGeography"
-        app:layout_constraintTop_toBottomOf="@+id/cvGeography">
+        app:layout_constraintEnd_toEndOf="@+id/cvCatB"
+        app:layout_constraintStart_toStartOf="@+id/cvCatB"
+        app:layout_constraintTop_toBottomOf="@+id/cvCatB">
 
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -140,7 +140,7 @@
                 style="@style/categoryHeadingTextStyle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/literature"
+                android:text="@string/catc"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 tools:layout_editor_absoluteY="16dp" />
@@ -164,9 +164,9 @@
         android:layout_width="0dp"
         android:layout_height="@dimen/home_card_height"
         android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="@+id/cvLiterature"
-        app:layout_constraintStart_toStartOf="@+id/cvLiterature"
-        app:layout_constraintTop_toBottomOf="@+id/cvLiterature">
+        app:layout_constraintEnd_toEndOf="@+id/cvCatC"
+        app:layout_constraintStart_toStartOf="@+id/cvCatC"
+        app:layout_constraintTop_toBottomOf="@+id/cvCatC">
 
 
         <androidx.constraintlayout.widget.ConstraintLayout

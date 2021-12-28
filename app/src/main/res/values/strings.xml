@@ -32,9 +32,9 @@
     <string name="old_password">Parola veche</string>
     <string name="create">Creează</string>
     <string name="save_password">Salvează parola</string>
-    <string name="literature">Categoria C</string>
-    <string name="geography">Categoria B</string>
-    <string name="math">Categoria A</string>
+    <string name="catc">Categoria C</string>
+    <string name="catb">Categoria B</string>
+    <string name="cata">Categoria A</string>
     <string name="catd">Categoria D</string>
     <string name="finish">Finalizare</string>
     <string name="next">Următoarea Întrebare</string>
@@ -46,9 +46,9 @@
     <string name="earned">Procentaj răspunsuri corecte :</string>
     <string name="total_questions">Quiz-uri totale :</string>
     <string name="overall_points">Totalul răspunsurilor corecte :</string>
-    <string name="math_quiz">Quiz Categoria A</string>
-    <string name="literature_quiz">Quiz Categoria C</string>
-    <string name="geography_quiz">Quiz Categoria B</string>
+    <string name="cata_quiz">Quiz Categoria A</string>
+    <string name="catc_quiz">Quiz Categoria C</string>
+    <string name="catb_quiz">Quiz Categoria B</string>
     <string name="catD_quiz">Quiz Categoria D</string>
     <string name="date">Data :</string>
     <string name="start_again">Încearcă din nou!</string>

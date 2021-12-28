@@ -63,7 +63,7 @@
             app:layout_constraintBottom_toBottomOf="@+id/textView20"
             app:layout_constraintStart_toEndOf="@+id/textView20"
             app:layout_constraintTop_toTopOf="@+id/textView20"
-            tools:text="Math" />
+            tools:text="Categoria A" />
 
         <TextView
             android:id="@+id/textView24"

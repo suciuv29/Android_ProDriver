@@ -28,26 +28,6 @@ public class Utils {
         return formatter.format(calendar.getTime());
     }
 
-    public static Map<String,String> getMathQuestions(){
-        HashMap<String,String> questions = new HashMap<>();
-        questions.put("1+1","2");
-        questions.put("2+2","4");
-        questions.put("3+3","6");
-        questions.put("4+4","8");
-        questions.put("5+5","10");
-        questions.put("6+6","12");
-        questions.put("7+7","14");
-        questions.put("8+8","16");
-        questions.put("9+9","18");
-        questions.put("10+10","20");
-        questions.put("11+11","22");
-        questions.put("12+12","24");
-        questions.put("13+13","26");
-        questions.put("14+14","28");
-        questions.put("15+15","30");
-
-        return questions;
-    }
 
 
 
@@ -496,11 +476,11 @@ public class Utils {
     public static Map<String,Map<String,Boolean>> getRandomQuestions(Context context, String subject, int SIZE){
         Map<String,Map<String,Boolean>> questionsMap = new HashMap<>();
         Map<String, Map<String, Boolean>> originalQuestion;
-        if (subject.equals(context.getString(R.string.math))){
+        if (subject.equals(context.getString(R.string.cata))){
             originalQuestion = getCatAQuestions();
-        }else if(subject.equals(context.getString(R.string.geography))){
+        }else if(subject.equals(context.getString(R.string.catb))){
             originalQuestion = getCatBQuestions();
-        }else if(subject.equals(context.getString(R.string.literature))){
+        }else if(subject.equals(context.getString(R.string.catc))){
             originalQuestion = getCatCQuestions();
         }else{
             originalQuestion = getCatDQuestions();

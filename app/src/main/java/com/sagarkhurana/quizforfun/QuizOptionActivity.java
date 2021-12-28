@@ -16,9 +16,9 @@ public class QuizOptionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_option);
 
-        CardView cvMath = findViewById(R.id.cvMath);
-        CardView cvGeography = findViewById(R.id.cvGeography);
-        CardView cvLiterature = findViewById(R.id.cvLiterature);
+        CardView cvCatA = findViewById(R.id.cvCatA);
+        CardView cvCatB = findViewById(R.id.cvCatB);
+        CardView cvCatC = findViewById(R.id.cvCatC);
         CardView cvCatD = findViewById(R.id.cvCatD);
 
 
@@ -29,29 +29,29 @@ public class QuizOptionActivity extends AppCompatActivity {
             }
         });
 
-        cvMath.setOnClickListener(new View.OnClickListener() {
+        cvCatA.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(QuizOptionActivity.this, RandomQuizActivity.class);
-                intent.putExtra(Constants.SUBJECT,getString(R.string.math));
+                intent.putExtra(Constants.SUBJECT,getString(R.string.cata));
                 startActivity(intent);
             }
         });
 
-        cvGeography.setOnClickListener(new View.OnClickListener() {
+        cvCatB.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(QuizOptionActivity.this, RandomQuizActivity.class);
-                intent.putExtra(Constants.SUBJECT,getString(R.string.geography));
+                intent.putExtra(Constants.SUBJECT,getString(R.string.catb));
                 startActivity(intent);
             }
         });
 
-        cvLiterature.setOnClickListener(new View.OnClickListener() {
+        cvCatC.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(QuizOptionActivity.this, RandomQuizActivity.class);
-                intent.putExtra(Constants.SUBJECT,getString(R.string.literature));
+                intent.putExtra(Constants.SUBJECT,getString(R.string.catc));
                 startActivity(intent);
             }
         });
