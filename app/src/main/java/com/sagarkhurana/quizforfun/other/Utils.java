@@ -27,7 +27,7 @@ public class Utils {
         calendar.setTimeInMillis(time);
         return formatter.format(calendar.getTime());
     }
-    
+
 
     public static Map<String,Map<String,Boolean>> getCatAQuestions(){
         HashMap<String,Map<String,Boolean>> questions = new HashMap<>();
