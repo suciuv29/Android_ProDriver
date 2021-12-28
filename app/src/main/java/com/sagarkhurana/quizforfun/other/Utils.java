@@ -327,219 +327,290 @@ public class Utils {
         HashMap<String,Map<String,Boolean>> questions = new HashMap<>();
 
         HashMap<String,Boolean> answer1 = new HashMap<>();
-        answer1.put("Maya Angelou",true);
-        answer1.put("Robert Hass",false);
-        answer1.put("Jessica Hagdorn",false);
-        answer1.put("Micheal Palmer",false);
-        questions.put("Which American writer published ‘A brave and startling truth’ in 1996",answer1);
+        answer1.put("ca funcţia respiratorie şi funcţia circulatorie să fie asigurate;",true);
+        answer1.put("ca punctul sanitar către care vă îndreptaţi să nu fie la o distanţă mai mare de 50 km;",false);
+        answer1.put("ca autovehiculul cu care va fi transportată victima să asigure confortul necesar;",false);
+        answer1.put("nu aveti nicio obligatie",false);
+        questions.put("Ce trebuie să aveţi în vedere înaintea transportării unei victime la spital?",answer1);
 
         HashMap<String,Boolean> answer2 = new HashMap<>();
-        answer2.put("Acrostic ",true);
-        answer2.put("Haiku",false);
-        answer2.put("Epic",false);
-        answer2.put("Alliterative",false);
-        questions.put("What is a poem called whose first letters of each line spell out a word?",answer2);
+        answer2.put("manevrarea volanului autoturismului tractat solicită un efort fizic mai mare, de aceea veţi efectua tractarea cu atenţie;",true);
+        answer2.put("nu aveţi voie să-l remorcaţi în această situaţie;",false);
+        answer2.put("blocaţi direcţia;",false);
+        answer2.put("nicio varianta nu e corecta",false);
+        questions.put("Intenţionaţi să remorcaţi un autoturism cu servodirecţie rămas în pană de motor. Ce trebuie să aveţi în vedere?",answer2);
 
         HashMap<String,Boolean> answer3 = new HashMap<>();
-        answer3.put("Limerick",true);
-        answer3.put("Quartet",false);
-        answer3.put("Sextet",false);
-        answer3.put("Palindrome",false);
-        questions.put("What is a funny poem of five lines called?",answer3);
+        answer3.put("pe partea laterală a epiglotei (Mărul lui Adam), în scobitura dintre trahee şi muşchii gâtului;",true);
+        answer3.put("lângă ureche;",false);
+        answer3.put("sub mandibulă;",false);
+        answer3.put("la inceheitura mainii",false);
+        questions.put("În cazul unui accidentat care nu respiră, pulsul este verificat:",answer3);
 
         HashMap<String,Boolean> answer4 = new HashMap<>();
-        answer4.put("Robert Greene",true);
-        answer4.put("John Milton",false);
-        answer4.put("Philip Sidney",false);
-        answer4.put("Christopher Marlowe",false);
-        questions.put("Who succeeded Lyly?",answer4);
+        answer4.put("cu atenţie, menţinându-se în acelaşi plan capul, gâtul şi toracele;",true);
+        answer4.put("de umeri şi de picioare de către două persoane;",false);
+        answer4.put("mai întâi de cap, apoi de torace şi picioare;",false);
+        answer4.put("de maini",false);
+        questions.put("O persoană grav rănită, victima unui accident de circulaţie, va fi ridicată:",answer4);
 
         HashMap<String,Boolean> answer5 = new HashMap<>();
-        answer5.put("Hamlet",true);
-        answer5.put("Cymbeline",false);
-        answer5.put("Titus Andronicus",false);
-        answer5.put("Pericles, Prince of Tyre",false);
-        questions.put("Which famous Shakespeare play does the quote,”Neither a borrower nor a lender be” come from?",answer5);
+        answer5.put("articulaţiile mecanismului de direcţie sunt negresate;",true);
+        answer5.put("circumferinţa roţilor directoare este prea mică;",false);
+        answer5.put("lubrifiantul articulaţiilor este prea fluid;",false);
+        answer5.put("cureaua de distributie",false);
+        questions.put("Care dintre următoarele cauze provoacă revenirea greoaie a roţilor directoare pe direcţia de mers înainte?",answer5);
 
         HashMap<String,Boolean> answer6 = new HashMap<>();
-        answer6.put("16th",true);
-        answer6.put("17th",false);
-        answer6.put("14th",false);
-        answer6.put("15th",false);
-        questions.put("In which century was Shakespeare born?",answer6);
+        answer6.put("bateria de acumulatori, generatorul de curent, conductori şi relee cu diferite roluri;",true);
+        answer6.put("conductori electrici, conectori, întrerupătoare şi relee de comandă;",false);
+        answer6.put("transformatorul, distribuitorul de tensiune şi consumatorii electrici;",false);
+        answer6.put("motor, pistoane, bateria de acumulatori",false);
+        questions.put("Instalaţia de alimentare cu energie electrică este alcătuită din:",answer6);
 
         HashMap<String,Boolean> answer7 = new HashMap<>();
-        answer7.put("A thief",true);
-        answer7.put("A clerk",false);
-        answer7.put("A teacher",false);
-        answer7.put("A dentist",false);
-        questions.put("Who is Mr. Tench in The Power and the Glory?",answer7);
+        answer7.put("prin aplicarea compreselor sterile şi a pansamentelor compresive;",true);
+        answer7.put("prin aplicarea unui garou de cauciuc;",false);
+        answer7.put("prin orice mijloace;",false);
+        answer7.put("nicio varianta nu este corecta",false);
+        questions.put("Cum se opresc hemoragiile la trunchi şi cap?",answer7);
 
         HashMap<String,Boolean> answer8 = new HashMap<>();
-        answer8.put("Coleridge",true);
-        answer8.put("Wordsworth",false);
-        answer8.put("Lamb",false);
-        answer8.put("Shelley",false);
-        questions.put("Who said ‘Keats was a Greek’?",answer8);
+        answer8.put("da, atunci când conducătorii celorlalte vehicule ar fi obligaţi astfel să treacă peste marcajul respectiv;",true);
+        answer8.put("nu;",false);
+        answer8.put("legal, nu este prevăzut;",false);
+        answer8.put("da, in orice caz",false);
+        questions.put("Este interzisă staţionarea în dreptul marcajului longitudinal continuu, aplicat între sensurile de circulaţie?",answer8);
 
         HashMap<String,Boolean> answer9 = new HashMap<>();
-        answer9.put("Gertrude",true);
-        answer9.put("Beatrice",false);
-        answer9.put("Margaret",false);
-        answer9.put("Rosalind",false);
-        questions.put("Which of the following is Hamlet’s mother?",answer9);
+        answer9.put("presiune prea joasă în roata stângă din faţă;",true);
+        answer9.put("pneuri uzate;",false);
+        answer9.put("presiune prea joasă în roata dreaptă din faţă;",false);
+        answer9.put("presiune prea joasă în roata stângă din spate;",false);
+        questions.put("În timpul mersului, remarcaţi că autovehiculul dvs. trage spre stânga. Care ar putea fi cauza?",answer9);
 
         HashMap<String,Boolean> answer10 = new HashMap<>();
-        answer10.put("Stingy",true);
-        answer10.put("Rude",false);
-        answer10.put("Unintelligent",false);
-        answer10.put("Fanatic",false);
-        questions.put("Which of the following was Elizabeth known as?",answer10);
+        answer10.put("persoana nu trebuie mişcată până la sosirea ambulanţei;",true);
+        answer10.put("orizontal, cu faţa în sus;",false);
+        answer10.put("în poziţie şezândă;",false);
+        answer10.put("în poziţie şezândă verticală",false);
+        questions.put("Cum trebuie aşezată într-un mijloc de transport o persoană rănită, care prezintă leziuni ale coloanei vertebrale?",answer10);
 
         HashMap<String,Boolean> answer11 = new HashMap<>();
-        answer11.put("Keats",true);
-        answer11.put("Blake",false);
-        answer11.put("Tennyson",false);
-        answer11.put("Shelley",false);
-        questions.put("For whom it is said: “sensuousness is a paramount bias of his genius”:",answer11);
+        answer11.put("să vă conformaţi semnificaţiei semnalelor acestora;",true);
+        answer11.put("să reduceţi viteza, să vă asiguraţi, iar, dacă trenul nu este în mişcare, puteţi să continuaţi traversarea căii ferate cu atenţie;",false);
+        answer11.put("nicio obligaţie, deoarece agenţii căilor ferate dirijează garniturile de tren;",false);
+        answer11.put("să opriţi;",false);
+        questions.put("Ce obligaţii aveţi la semnalele agenţilor căilor ferate, plasaţi la trecerea la nivel cu o cale ferată?",answer11);
 
         HashMap<String,Boolean> answer12 = new HashMap<>();
-        answer12.put("Maud",true);
-        answer12.put("Ulysses",false);
-        answer12.put("Break, Break, Break",false);
-        answer12.put("Crossing the Bar",false);
-        questions.put("Which of the following poems by Tennyson is a monodrama?",answer12);
+        answer12.put("cuprinzând osul fracturat şi cele două articulaţii, respectiv cea superioară şi inferioară;",true);
+        answer12.put("cuprinzând osul fracturat şi articulaţia superioară;",false);
+        answer12.put("în dreptul osului fracturat;",false);
+        answer12.put("nicio varianta nu este corecta",false);
+        questions.put("Imobilizarea unui braţ fracturat se face:",answer12);
 
         HashMap<String,Boolean> answer13 = new HashMap<>();
-        answer13.put("Southey",true);
-        answer13.put("Tennyson",false);
-        answer13.put("Byron",false);
-        answer13.put("Wordsworth",false);
-        questions.put("Which one of the following poets was appointed Poet Laureate in the year 1813?",answer13);
+        answer13.put("50 km/h;",true);
+        answer13.put("40 km/h;",false);
+        answer13.put("60 km/h;",false);
+        answer13.put("30 km/h;",false);
+        questions.put("Autovehiculele din categoria C pot circula în localităţi cu o viteză maximă de:",answer13);
 
         HashMap<String,Boolean> answer14 = new HashMap<>();
-        answer14.put("Wordsworth",true);
-        answer14.put("Keats",false);
-        answer14.put("Byron",false);
-        answer14.put("Blake",false);
-        questions.put("Who believed that poetry is the spontaneous overflow of emotions?",answer14);
+        answer14.put("21 de ani;",true);
+        answer14.put("18 de ani;",false);
+        answer14.put("24 de ani;",false);
+        answer14.put("25 de ani;",false);
+        questions.put("Care este varsta minima pentru obtinerea permisului de conducere pentru categoriile C si CE?",answer14);
 
         HashMap<String,Boolean> answer15 = new HashMap<>();
-        answer15.put("Dickens",true);
-        answer15.put("George Eliot",false);
-        answer15.put("Hardy",false);
-        answer15.put("None of the above",false);
-        questions.put("Moral choice is everything in the works of:",answer15);
+        answer15.put("nu;",true);
+        answer15.put("da, fara nicio restrictie;",false);
+        answer15.put("da, cu aprobarea politiei rutiere.",false);
+        answer15.put("da, doar daca aveti un indicator care va indica acest lucru",false);
+        questions.put("Ai posibilitatea de a efectua transportul de marfuri cu autovehicule si remorci care circula in baza autorizatiei pentru probe?",answer15);
+
+        HashMap<String,Boolean> answer16 = new HashMap<>();
+        answer16.put("anual;",true);
+        answer16.put("din 2 in 2 ani;",false);
+        answer16.put("din 3 in 3 ani;",false);
+        answer16.put("o data la 6 luni.",false);
+        questions.put("Care este frecventa inspectiilor tehnice periodice, pentru autocamioanele cu o masa totala maxima autorizata mai mare de 3500 kg?",answer16);
+
+        HashMap<String,Boolean> answer17 = new HashMap<>();
+        answer17.put("simetric in raport cu axa longitudinala a autocamionului;",true);
+        answer17.put("in partea din spate a cabinei conducatorului auto;",false);
+        answer17.put("simetric in raport cu axa transversala a autocamionului;",false);
+        answer17.put("nu este permis;",false);
+        questions.put("Cum trebuie sa fie asezata o incarcatura compusa din marfuri de acelasi fel?",answer17);
+
+        HashMap<String,Boolean> answer18 = new HashMap<>();
+        answer18.put("50 km/h;",true);
+        answer18.put("40 km/h;",false);
+        answer18.put("60 km/h;",false);
+        answer18.put("30 km/h;",false);
+        questions.put("Autovehiculele din categoria C pot circula în localităţi cu o viteză maximă de:",answer18);
+
+        HashMap<String,Boolean> answer19 = new HashMap<>();
+        answer19.put("chingilor, lanturilor, calelor si a cablurilor;",true);
+        answer19.put("paletilor;",false);
+        answer19.put("rolcontainerelor;",false);
+        answer19.put("nu se poate realiza;",false);
+        questions.put("Limitarea deplasarilor marfurilor care pot determina instabilitatea autocamionului se poate realiza prin folosirea:",answer19);
+
+        HashMap<String,Boolean> answer20 = new HashMap<>();
+        answer20.put("pe banda de urgenta;",true);
+        answer20.put("între banda din stânga si banda din mijloc;",false);
+        answer20.put("între banda din dreapta si banda din mijloc;",false);
+        answer20.put("pe banda din dreapta",false);
+        questions.put("Pe o autostrada cu trei benzi, s-a blocat circulatia. Pe unde vor circula vehiculele de interventie?",answer20);
 
         return questions;
     }
+
     public static Map<String,Map<String,Boolean>> getCatDQuestions(){
         HashMap<String,Map<String,Boolean>> questions = new HashMap<>();
 
         HashMap<String,Boolean> answer1 = new HashMap<>();
-        answer1.put("Maya Angelou",true);
-        answer1.put("Robert Hass",false);
-        answer1.put("Jessica Hagdorn",false);
-        answer1.put("Micheal Palmer",false);
-        questions.put("Which American writer published ‘A brave and startling truth’ in 1996",answer1);
+        answer1.put("defectarea pompei de înaltă presiune;",true);
+        answer1.put("jocul mare din articulaţii;",false);
+        answer1.put("presiunea mare în pneurile roţilor directoare;",false);
+        answer1.put("presiunea mică în pneuri",false);
+        questions.put("Care dintre următoarele cauze provoacă manevrarea anevoioasă a volanului, în cazul unui sistem de direcţie cu servomecanism hidraulic?",answer1);
 
         HashMap<String,Boolean> answer2 = new HashMap<>();
-        answer2.put("Acrostic ",true);
-        answer2.put("Haiku",false);
-        answer2.put("Epic",false);
-        answer2.put("Alliterative",false);
-        questions.put("What is a poem called whose first letters of each line spell out a word?",answer2);
+        answer2.put("fiecare cilindru al motorului, în poarta supapei de admisie;",true);
+        answer2.put("interiorul difuzorului carburatorului;",false);
+        answer2.put("filtrul de benzină situat înaintea carburatorului;",false);
+        answer2.put("rezervor",false);
+        questions.put("Injecţia de benzină multipunct se realizează în:",answer2);
 
         HashMap<String,Boolean> answer3 = new HashMap<>();
-        answer3.put("Limerick",true);
-        answer3.put("Quartet",false);
-        answer3.put("Sextet",false);
-        answer3.put("Palindrome",false);
-        questions.put("What is a funny poem of five lines called?",answer3);
+        answer3.put("dacă spaţiul permite, poate depăşi tramvaiele prin partea dreaptă;",true);
+        answer3.put("să păstreze în mers cel puţin 10 m faţă de ultimul vagon al tramvaiului;",false);
+        answer3.put("să atenţioneze conducătorul tramvaiului, prin semnale sonore, pentru ca acesta să reducă viteza;",false);
+        answer3.put("să oprească",false);
+        questions.put("Cum trebuie să procedeze conducătorul unui autobuz, atunci când se apropie de tramvaie aflate în mers?",answer3);
 
         HashMap<String,Boolean> answer4 = new HashMap<>();
-        answer4.put("Robert Greene",true);
-        answer4.put("John Milton",false);
-        answer4.put("Philip Sidney",false);
-        answer4.put("Christopher Marlowe",false);
-        questions.put("Who succeeded Lyly?",answer4);
+        answer4.put("lumini de altă culoare şi intensitate decât cele omologate;",true);
+        answer4.put("dispozitive de detectare a aparatelor radar;",false);
+        answer4.put("lumini de poziţie;",false);
+        answer4.put("dispozitive sonore",false);
+        questions.put("Ce este interzis să se monteze la autovehicul?",answer4);
 
         HashMap<String,Boolean> answer5 = new HashMap<>();
-        answer5.put("Hamlet",true);
-        answer5.put("Cymbeline",false);
-        answer5.put("Titus Andronicus",false);
+        answer5.put("pătrunderea aerului în instalaţia hidraulică;",true);
+        answer5.put("gresajul defectuos al articulaţiilor;",false);
+        answer5.put("geometria roţilor dereglată;",false);
         answer5.put("Pericles, Prince of Tyre",false);
-        questions.put("Which famous Shakespeare play does the quote,”Neither a borrower nor a lender be” come from?",answer5);
+        questions.put("Care dintre cauzele enumerate mai jos provoacă la viraj şocuri în volanul unui sistem de direcţie cu servomecanism hidraulic?",answer5);
 
         HashMap<String,Boolean> answer6 = new HashMap<>();
-        answer6.put("16th",true);
-        answer6.put("17th",false);
-        answer6.put("14th",false);
-        answer6.put("15th",false);
-        questions.put("In which century was Shakespeare born?",answer6);
+        answer6.put("da, atunci când conducătorii celorlalte vehicule ar fi obligaţi astfel să treacă peste marcajul respectiv;",true);
+        answer6.put("nu;",false);
+        answer6.put("legal, nu este prevăzut;",false);
+        answer6.put("nicio varianta nu este corecta",false);
+        questions.put("Este interzisă staţionarea în dreptul marcajului longitudinal continuu, aplicat între sensurile de circulaţie?",answer6);
 
         HashMap<String,Boolean> answer7 = new HashMap<>();
-        answer7.put("A thief",true);
-        answer7.put("A clerk",false);
-        answer7.put("A teacher",false);
-        answer7.put("A dentist",false);
-        questions.put("Who is Mr. Tench in The Power and the Glory?",answer7);
+        answer7.put("numai banda din partea dreaptă, în sensul de mers;",true);
+        answer7.put("banda de lângă axul autostrăzii;",false);
+        answer7.put("oricare bandă liberă;",false);
+        answer7.put("banda din mijloc;",false);
+        questions.put("Ce bandă de circulaţie trebuie să folosiţi, atunci când conduceţi un autobuz pe autostradă?",answer7);
 
         HashMap<String,Boolean> answer8 = new HashMap<>();
-        answer8.put("Coleridge",true);
-        answer8.put("Wordsworth",false);
-        answer8.put("Lamb",false);
-        answer8.put("Shelley",false);
-        questions.put("Who said ‘Keats was a Greek’?",answer8);
+        answer8.put("21 ani împliniţi;",true);
+        answer8.put("18 ani împliniţi;",false);
+        answer8.put("25 ani împliniţi;",false);
+        answer8.put("24 ani împliniţi;",false);
+        questions.put("Conducătorii de tramvaie sau de vehicule, care efectuează transport public de persoane, trebuie să aibă vârsta minimă de:",answer8);
 
         HashMap<String,Boolean> answer9 = new HashMap<>();
-        answer9.put("Gertrude",true);
-        answer9.put("Beatrice",false);
-        answer9.put("Margaret",false);
-        answer9.put("Rosalind",false);
-        questions.put("Which of the following is Hamlet’s mother?",answer9);
+        answer9.put("depăşire;",true);
+        answer9.put("ocolire;",false);
+        answer9.put("situaţie de urgenţă;",false);
+        answer9.put("oprire",false);
+        questions.put("Manevra de evitare, prin schimbarea direcţiei de mers, a unui obstacol aflat pe sensul dvs. de circulaţie, urmată de revenirea pe acelaşi sens, constituie:",answer9);
 
         HashMap<String,Boolean> answer10 = new HashMap<>();
-        answer10.put("Stingy",true);
-        answer10.put("Rude",false);
-        answer10.put("Unintelligent",false);
-        answer10.put("Fanatic",false);
-        questions.put("Which of the following was Elizabeth known as?",answer10);
+        answer10.put("100 km/h pe autostradă, 80 km/h pe drumurile expres sau naţionale europene şi 70 km/h pe celelalte categorii de drumuri;",true);
+        answer10.put("80 km/h pe autostrăzi şi 70 km/h pe celelalte categorii de drumuri;",false);
+        answer10.put("100 km/h atât pe autostrăzi, cât şi pe celelalte categorii de drumuri;",false);
+        answer10.put("90 km/h pe autostrăzi şi 70 km/h pe celelalte categorii de drumuri;",false);
+        questions.put("Precizaţi care este viteza maximă admisă în afara localităţilor, pentru un ansamblu de autovehicule format dintr-un autobuz şi o remorcă:",answer10);
 
         HashMap<String,Boolean> answer11 = new HashMap<>();
-        answer11.put("Keats",true);
-        answer11.put("Blake",false);
-        answer11.put("Tennyson",false);
-        answer11.put("Shelley",false);
-        questions.put("For whom it is said: “sensuousness is a paramount bias of his genius”:",answer11);
+        answer11.put("să reduceţi din timp viteza, evitând bruscarea comenzilor;",true);
+        answer11.put("să folosiţi frâna de ajutor pentru a evita derapajul;",false);
+        answer11.put("să circulaţi cât mai aproape de axul drumului, pentru a evita lovirea acostamentului;",false);
+        answer11.put("toate variantele sunt corecte",false);
+        questions.put("Ce măsuri se recomandă atunci când urmează să străbateţi o porţiune de drum public acoperită cu piatră cubică?",answer11);
 
         HashMap<String,Boolean> answer12 = new HashMap<>();
-        answer12.put("Maud",true);
-        answer12.put("Ulysses",false);
-        answer12.put("Break, Break, Break",false);
-        answer12.put("Crossing the Bar",false);
-        questions.put("Which of the following poems by Tennyson is a monodrama?",answer12);
+        answer12.put("reducerea consumului de combustibil, datorită vitezei constante;",true);
+        answer12.put("creşterea consumului de combustibil, datorită unei viteze mai mici;",false);
+        answer12.put("acest sistem nu are efecte asupra consumului de combustibil;",false);
+        answer12.put("nicio varianta nu este corecta",false);
+        questions.put("Utilizarea pe autostradă a limitatorului de viteză pentru autovehiculele dotate cu acest sistem are ca efect:",answer12);
 
         HashMap<String,Boolean> answer13 = new HashMap<>();
-        answer13.put("Southey",true);
-        answer13.put("Tennyson",false);
-        answer13.put("Byron",false);
-        answer13.put("Wordsworth",false);
-        questions.put("Which one of the following poets was appointed Poet Laureate in the year 1813?",answer13);
+        answer13.put("maximum 2 ore;",true);
+        answer13.put("minim 2 ore;",false);
+        answer13.put("maximum 24 de ore;",false);
+        answer13.put("maximum 3 ore;",false);
+        questions.put("Un garou, aplicat unei persoane rănite într-un accident de circulaţie, poate fi menţinut pentru a nu afecta ţesuturile:",answer13);
 
         HashMap<String,Boolean> answer14 = new HashMap<>();
-        answer14.put("Wordsworth",true);
-        answer14.put("Keats",false);
-        answer14.put("Byron",false);
-        answer14.put("Blake",false);
-        questions.put("Who believed that poetry is the spontaneous overflow of emotions?",answer14);
+        answer14.put("blocării termostatului în poziţia „deschis”;",true);
+        answer14.put("folosirii unui lichid antigel recomandat pentru temperaturi sub - 30 grade C;",false);
+        answer14.put("blocării termostatului în poziţia „închis”;",false);
+        answer14.put("frana de ajutor este ridicată",false);
+        questions.put("Răcirea exagerată a motorului în timpul funcţionării se poate datora:",answer14);
 
         HashMap<String,Boolean> answer15 = new HashMap<>();
-        answer15.put("Dickens",true);
-        answer15.put("George Eliot",false);
-        answer15.put("Hardy",false);
-        answer15.put("None of the above",false);
-        questions.put("Moral choice is everything in the works of:",answer15);
+        answer15.put("în rezervor;",true);
+        answer15.put("în pompa de injecţie;",false);
+        answer15.put("în pompa de alimentare;",false);
+        answer15.put("în interiorul difuzorului carburatorului;",false);
+        questions.put("Surplusul de motorină de la injectoare este refulat:",answer15);
+
+        HashMap<String,Boolean> answer16 = new HashMap<>();
+        answer16.put("apariţia unei spume de culoare gălbuie pe joja de nivel a uleiului;",true);
+        answer16.put("funcţionarea neregulată a motorului;",false);
+        answer16.put("diminuarea nivelului apei în radiator;",false);
+        answer16.put("toate variantele sunt corecte",false);
+        questions.put("Pătrunderea lichidului de răcire în baia de ulei a motorului este indicată de:",answer16);
+
+        HashMap<String,Boolean> answer17 = new HashMap<>();
+        answer17.put("în locurile unde s-ar împiedica observarea unui indicator sau a unui semnal luminos;",true);
+        answer17.put("pe drumurile cu o lăţime mai mică de 6 m;",false);
+        answer17.put("pe drumurile cu un singur sens de circulaţie;",false);
+        answer17.put("pe drumurile judetene",false);
+        questions.put("Oprirea voluntară a unui autobuz este interzisă:",answer17);
+
+        HashMap<String,Boolean> answer18 = new HashMap<>();
+        answer18.put("arborele cu came;",true);
+        answer18.put("arborele cotit;",false);
+        answer18.put("carburatorul;",false);
+        answer18.put("planetara",false);
+        questions.put("Care dintre următoarele piese fac parte din mecanismul de distribuţie?",answer18);
+
+        HashMap<String,Boolean> answer19 = new HashMap<>();
+        answer19.put("80 km/h;",true);
+        answer19.put("90 km/h;",false);
+        answer19.put("100 km/h;",false);
+        answer19.put("70 km/h;",false);
+        questions.put("Viteza maximă admisă pe drumurile naţionale, altele decât cele europene E, pentru autovehiculele din categoria D şi subcategoria D1, este de:",answer19);
+
+        HashMap<String,Boolean> answer20 = new HashMap<>();
+        answer20.put("colectorul de admisie;",true);
+        answer20.put("interiorul camerei de nivel constant a carburatorului;",false);
+        answer20.put("poarta supapelor de evacuare;",false);
+        answer20.put("nicio varianta nu este corecta",false);
+        questions.put("Injecţia de benzină monopunct se realizează în:",answer20);
 
         return questions;
     }
