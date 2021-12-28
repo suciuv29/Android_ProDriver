@@ -44,7 +44,7 @@ public class RandomQuizActivity extends AppCompatActivity {
         }else if(subject.equals(getString(R.string.geography))){
             questionsAnswerMap = Utils.getRandomQuestions(this,getString(R.string.geography),Constants.QUESTION_SHOWING);
             tvTitle.setText(getString(R.string.geography_quiz));
-        }else if(subject.equals(getString(R.string.math_quiz))){
+        }else if(subject.equals(getString(R.string.math))){
             questionsAnswerMap = Utils.getRandomQuestions(this,getString(R.string.math),Constants.QUESTION_SHOWING);
             tvTitle.setText(getString(R.string.math_quiz));
         }else{questionsAnswerMap = Utils.getRandomQuestions(this,getString(R.string.catd),Constants.QUESTION_SHOWING);
