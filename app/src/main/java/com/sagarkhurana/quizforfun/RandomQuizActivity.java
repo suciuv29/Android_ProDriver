@@ -103,7 +103,7 @@ public class RandomQuizActivity extends AppCompatActivity {
     private void displayNextQuestions() {
         setAnswersToRadioButton();
         tvQuestion.setText(questions.get(currentQuestionIndex));
-        tvQuestionNumber.setText("Current Question: " + (currentQuestionIndex + 1));
+        tvQuestionNumber.setText("Întrebarea curentă: " + (currentQuestionIndex + 1));
 
         if (currentQuestionIndex == Constants.QUESTION_SHOWING  - 1){
             btnNext.setText(getText(R.string.finish));
@@ -112,7 +112,7 @@ public class RandomQuizActivity extends AppCompatActivity {
 
     private void displayData() {
         tvQuestion.setText(questions.get(currentQuestionIndex));
-        tvQuestionNumber.setText("Current Question: " + (currentQuestionIndex + 1));
+        tvQuestionNumber.setText("Întrebarea curentă: " + (currentQuestionIndex + 1));
 
         setAnswersToRadioButton();
     }

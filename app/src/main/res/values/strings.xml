@@ -1,66 +1,66 @@
 <resources>
-    <string name="app_name">QuizForFun</string>
-    <string name="password">Password</string>
+    <string name="app_name">Pro Driver</string>
+    <string name="password">Parolă</string>
     <string name="login">Login</string>
-    <string name="username">Username</string>
-    <string name="welcome_back">Welcome Back!</string>
-    <string name="login_to_continue">Login to continue</string>
+    <string name="username">Nume de utilizator</string>
+    <string name="welcome_back">Bine ai revenit!</string>
+    <string name="login_to_continue">Login pentru a continua</string>
 
-    <string name="username_cannot_empty">Username cannot be empty</string>
-    <string name="password_cannot_empty">Password cannot be empty</string>
-    <string name="old_password_cannot_be_empty">Old Password cannot be empty</string>
-    <string name="new_password_cannot_be_empty">New Password cannot be empty</string>
-    <string name="confirm_new_password_cannot_be_empty">Confirm New Password cannot be empty</string>
-    <string name="password_must_be_same">Password must be same</string>
-    <string name="new_password_must_be_different">New Password must be different</string>
-    <string name="email_cannot_empty">Email cannot be empty</string>
-    <string name="email_not_valid">Email must be valid</string>
-    <string name="don_t_have_an_account">Don’t have an account?</string>
-    <string name="sign_up">SIGN UP</string>
-    <string name="create_account">Create Account</string>
-    <string name="register">Register</string>
+    <string name="username_cannot_empty">Numele de utilizator nu poate fi gol</string>
+    <string name="password_cannot_empty">Parola nu poate fi goală</string>
+    <string name="old_password_cannot_be_empty">Vechea parolă nu poate fi goală</string>
+    <string name="new_password_cannot_be_empty">Noua parolă nu poate fi goală</string>
+    <string name="confirm_new_password_cannot_be_empty">Confirmarea parolei noi nu poate fi goală</string>
+    <string name="password_must_be_same">Parola trebuie să fie aceeași</string>
+    <string name="new_password_must_be_different">Parola nouă trebuie să fie diferită de cea veche</string>
+    <string name="email_cannot_empty">Email-ul nu poate fi gol</string>
+    <string name="email_not_valid">Email-ul trebuie să fie valid</string>
+    <string name="don_t_have_an_account">Nu ai un cont?</string>
+    <string name="sign_up">ÎNTREGISTREAZĂ-TE</string>
+    <string name="create_account">Creaază-ți cont</string>
+    <string name="register">Înregistează-te</string>
     <string name="email">Email</string>
     <string name="start_quiz">Start Quiz</string>
-    <string name="rule">Rule</string>
-    <string name="history">History</string>
-    <string name="menu">Menu</string>
-    <string name="quiz_option">Quiz Option</string>
-    <string name="edit_password">Edit Password</string>
+    <string name="rule">Reguli</string>
+    <string name="history">Istoric și statistici</string>
+    <string name="menu">Meniu</string>
+    <string name="quiz_option">Categorii Auto</string>
+    <string name="edit_password">Schimbă parola</string>
     <string name="logout">Logout</string>
-    <string name="new_password">New Password</string>
-    <string name="confirm_new_password">Confirm New Password</string>
-    <string name="old_password">Old Password</string>
-    <string name="create">Create</string>
-    <string name="save_password">Save Password</string>
-    <string name="literature">Prim Ajutor</string>
-    <string name="geography">Conducere Preventiva</string>
-    <string name="math">Contraventii</string>
-    <string name="finish">Finish</string>
-    <string name="next">Next</string>
-    <string name="enter_answer">Enter Answer</string>
-    <string name="final_result">Final Result</string>
-    <string name="subject">Subject :</string>
-    <string name="correct">Correct :</string>
-    <string name="incorrect">Incorrect :</string>
-    <string name="earned">Earned :</string>
-    <string name="total_questions">Total Questions :</string>
-    <string name="overall_points">Overall Points :</string>
-    <string name="math_quiz">Quiz Contraventii</string>
-    <string name="literature_quiz">Quiz Prim Ajutor</string>
-    <string name="geography_quiz">Quiz Conducere Preventiva</string>
-    <string name="date">Date :</string>
-    <string name="start_again">Start Again!</string>
+    <string name="new_password">Parola nouă</string>
+    <string name="confirm_new_password">Confirmă parola nouă</string>
+    <string name="old_password">Parola veche</string>
+    <string name="create">Creează</string>
+    <string name="save_password">Salvează parola</string>
+    <string name="literature">Categoria C</string>
+    <string name="geography">Categoria B</string>
+    <string name="math">Categoria A</string>
+    <string name="finish">Finalizare</string>
+    <string name="next">Următoarea Întrebare</string>
+    <string name="enter_answer">Scrie răspunsul</string>
+    <string name="final_result">Rezultat final</string>
+    <string name="subject">Categoria :</string>
+    <string name="correct">Răspunsuri corecte :</string>
+    <string name="incorrect">Răspunsuri greșite :</string>
+    <string name="earned">Procentaj răspunsuri corecte :</string>
+    <string name="total_questions">Quiz-uri totale :</string>
+    <string name="overall_points">Totalul răspunsurilor corecte :</string>
+    <string name="math_quiz">Quiz Categoria A</string>
+    <string name="literature_quiz">Quiz Categoria C</string>
+    <string name="geography_quiz">Quiz Categoria B</string>
+    <string name="date">Data :</string>
+    <string name="start_again">Încearcă din nou!</string>
 
     <string name="rules1_description">
-        The Quiz will contain 10 randomized questions.
+        Quiz-ul va conține 10 întrebări aleatorii.
     </string>
     <string name="rules2_description">
-        Every correct answer scores you 1 points.
+        Fiecare răspuns corect vă aduce 1 punct.
     </string>
     <string name="rules3_description">
-        Every wrong answer scores you 0 points.
+        Răspunsurile greșite nu vă aduc niciun punct.
     </string>
     <string name="rules4_description">
-        Your results will be saved and will be accumulated in your history.
+        Rezultatele tale vor salvate în istoricul tău.
     </string>
 </resources>

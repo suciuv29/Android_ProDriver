@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
         SharedPref sharedPref = SharedPref.getInstance();
         User user = sharedPref.getUser(this);
-        tvUsername.setText("Hello, " + user.getUsername());
+        tvUsername.setText("Salut, " + user.getUsername());
 
         cvStartQuiz.setOnClickListener(new View.OnClickListener() {
             @Override
