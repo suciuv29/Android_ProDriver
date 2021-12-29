@@ -172,6 +172,75 @@ public class Utils {
         answer20.put("în orice caz;",false);
         questions.put("Semnificaţia indicatoarelor „Oprire” şi „Cedează trecerea”, instalate în intersecţiile semaforizate, trebuie respectată:",answer20);
 
+        HashMap<String,Boolean> answer21 = new HashMap<>();
+        answer21.put("Dickens",true);
+        answer21.put("George Eliot",false);
+        answer21.put("Hardy",false);
+        answer21.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer21);
+
+        HashMap<String,Boolean> answer22 = new HashMap<>();
+        answer22.put("Dickens",true);
+        answer22.put("George Eliot",false);
+        answer22.put("Hardy",false);
+        answer22.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer22);
+
+        HashMap<String,Boolean> answer23 = new HashMap<>();
+        answer23.put("Dickens",true);
+        answer23.put("George Eliot",false);
+        answer23.put("Hardy",false);
+        answer23.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer23);
+
+        HashMap<String,Boolean> answer24 = new HashMap<>();
+        answer24.put("Dickens",true);
+        answer24.put("George Eliot",false);
+        answer24.put("Hardy",false);
+        answer24.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer24);
+
+        HashMap<String,Boolean> answer25 = new HashMap<>();
+        answer25.put("Dickens",true);
+        answer25.put("George Eliot",false);
+        answer25.put("Hardy",false);
+        answer25.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer25);
+
+        HashMap<String,Boolean> answer26 = new HashMap<>();
+        answer26.put("Dickens",true);
+        answer26.put("George Eliot",false);
+        answer26.put("Hardy",false);
+        answer26.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer26);
+
+        HashMap<String,Boolean> answer27 = new HashMap<>();
+        answer27.put("Dickens",true);
+        answer27.put("George Eliot",false);
+        answer27.put("Hardy",false);
+        answer27.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer27);
+
+        HashMap<String,Boolean> answer28 = new HashMap<>();
+        answer28.put("Southey",true);
+        answer28.put("Tennyson",false);
+        answer28.put("Byron",false);
+        answer28.put("Wordsworth",false);
+        questions.put("Which one of the following poets was appointed Poet Laureate in the year 2823?",answer28);
+
+        HashMap<String,Boolean> answer29 = new HashMap<>();
+        answer29.put("Wordsworth",true);
+        answer29.put("Keats",false);
+        answer29.put("Byron",false);
+        answer29.put("Blake",false);
+        questions.put("Who believed that poetry is the spontaneous overflow of emotions?",answer29);
+
+        HashMap<String,Boolean> answer30 = new HashMap<>();
+        answer30.put("Dickens",true);
+        answer30.put("George Eliot",false);
+        answer30.put("Hardy",false);
+        answer30.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer30);
 
         return questions;
     }
@@ -204,7 +273,7 @@ public class Utils {
         answer4.put("ambele vehicule",false);
         answer4.put("vehiculul uşor;",false);
         answer4.put("vehiculul greu;",false);
-        answer4.put("vehiculul uşor;",true);
+        answer4.put("oricare vehicul;",true);
         questions.put("La întâlnirea unui vehicul greu cu unul uşor, pe un drum public îngust, pentru a face posibilă trecerea va manevra cu spatele:",answer4);
 
         HashMap<String,Boolean> answer5 = new HashMap<>();
@@ -318,6 +387,76 @@ public class Utils {
         answer20.put("la cel mult 5 m de calea ferată;",false);
         answer20.put("la cel mult 2 m de calea ferată;",false);
         questions.put("La întâlnirea indicatorului de avertizare în cruce, amplasat la trecerile la nivel cu calea ferată fără bariere, conducătorii de vehicule vor opri:",answer20);
+
+        HashMap<String,Boolean> answer21 = new HashMap<>();
+        answer21.put("Dickens",true);
+        answer21.put("George Eliot",false);
+        answer21.put("Hardy",false);
+        answer21.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer21);
+
+        HashMap<String,Boolean> answer22 = new HashMap<>();
+        answer22.put("Dickens",true);
+        answer22.put("George Eliot",false);
+        answer22.put("Hardy",false);
+        answer22.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer22);
+
+        HashMap<String,Boolean> answer23 = new HashMap<>();
+        answer23.put("Dickens",true);
+        answer23.put("George Eliot",false);
+        answer23.put("Hardy",false);
+        answer23.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer23);
+
+        HashMap<String,Boolean> answer24 = new HashMap<>();
+        answer24.put("Dickens",true);
+        answer24.put("George Eliot",false);
+        answer24.put("Hardy",false);
+        answer24.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer24);
+
+        HashMap<String,Boolean> answer25 = new HashMap<>();
+        answer25.put("Dickens",true);
+        answer25.put("George Eliot",false);
+        answer25.put("Hardy",false);
+        answer25.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer25);
+
+        HashMap<String,Boolean> answer26 = new HashMap<>();
+        answer26.put("Dickens",true);
+        answer26.put("George Eliot",false);
+        answer26.put("Hardy",false);
+        answer26.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer26);
+
+        HashMap<String,Boolean> answer27 = new HashMap<>();
+        answer27.put("Dickens",true);
+        answer27.put("George Eliot",false);
+        answer27.put("Hardy",false);
+        answer27.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer27);
+
+        HashMap<String,Boolean> answer28 = new HashMap<>();
+        answer28.put("Southey",true);
+        answer28.put("Tennyson",false);
+        answer28.put("Byron",false);
+        answer28.put("Wordsworth",false);
+        questions.put("Which one of the following poets was appointed Poet Laureate in the year 2823?",answer28);
+
+        HashMap<String,Boolean> answer29 = new HashMap<>();
+        answer29.put("Wordsworth",true);
+        answer29.put("Keats",false);
+        answer29.put("Byron",false);
+        answer29.put("Blake",false);
+        questions.put("Who believed that poetry is the spontaneous overflow of emotions?",answer29);
+
+        HashMap<String,Boolean> answer30 = new HashMap<>();
+        answer30.put("Dickens",true);
+        answer30.put("George Eliot",false);
+        answer30.put("Hardy",false);
+        answer30.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer30);
 
         return questions;
     }
@@ -465,6 +604,78 @@ public class Utils {
         answer20.put("pe banda din dreapta",false);
         questions.put("Pe o autostrada cu trei benzi, s-a blocat circulatia. Pe unde vor circula vehiculele de interventie?",answer20);
 
+        HashMap<String,Boolean> answer21 = new HashMap<>();
+        answer21.put("Dickens",true);
+        answer21.put("George Eliot",false);
+        answer21.put("Hardy",false);
+        answer21.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer21);
+
+        HashMap<String,Boolean> answer22 = new HashMap<>();
+        answer22.put("Dickens",true);
+        answer22.put("George Eliot",false);
+        answer22.put("Hardy",false);
+        answer22.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer22);
+
+        HashMap<String,Boolean> answer23 = new HashMap<>();
+        answer23.put("Dickens",true);
+        answer23.put("George Eliot",false);
+        answer23.put("Hardy",false);
+        answer23.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer23);
+
+        HashMap<String,Boolean> answer24 = new HashMap<>();
+        answer24.put("Dickens",true);
+        answer24.put("George Eliot",false);
+        answer24.put("Hardy",false);
+        answer24.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer24);
+
+        HashMap<String,Boolean> answer25 = new HashMap<>();
+        answer25.put("Dickens",true);
+        answer25.put("George Eliot",false);
+        answer25.put("Hardy",false);
+        answer25.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer25);
+
+        HashMap<String,Boolean> answer26 = new HashMap<>();
+        answer26.put("Dickens",true);
+        answer26.put("George Eliot",false);
+        answer26.put("Hardy",false);
+        answer26.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer26);
+
+        HashMap<String,Boolean> answer27 = new HashMap<>();
+        answer27.put("Dickens",true);
+        answer27.put("George Eliot",false);
+        answer27.put("Hardy",false);
+        answer27.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer27);
+
+        HashMap<String,Boolean> answer28 = new HashMap<>();
+        answer28.put("Southey",true);
+        answer28.put("Tennyson",false);
+        answer28.put("Byron",false);
+        answer28.put("Wordsworth",false);
+        questions.put("Which one of the following poets was appointed Poet Laureate in the year 2823?",answer28);
+
+        HashMap<String,Boolean> answer29 = new HashMap<>();
+        answer29.put("Wordsworth",true);
+        answer29.put("Keats",false);
+        answer29.put("Byron",false);
+        answer29.put("Blake",false);
+        questions.put("Who believed that poetry is the spontaneous overflow of emotions?",answer29);
+
+        HashMap<String,Boolean> answer30 = new HashMap<>();
+        answer30.put("Dickens",true);
+        answer30.put("George Eliot",false);
+        answer30.put("Hardy",false);
+        answer30.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer30);
+
+
+
         return questions;
     }
 
@@ -610,6 +821,76 @@ public class Utils {
         answer20.put("poarta supapelor de evacuare;",false);
         answer20.put("nicio varianta nu este corecta",false);
         questions.put("Injecţia de benzină monopunct se realizează în:",answer20);
+
+        HashMap<String,Boolean> answer21 = new HashMap<>();
+        answer21.put("Dickens",true);
+        answer21.put("George Eliot",false);
+        answer21.put("Hardy",false);
+        answer21.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer21);
+
+        HashMap<String,Boolean> answer22 = new HashMap<>();
+        answer22.put("Dickens",true);
+        answer22.put("George Eliot",false);
+        answer22.put("Hardy",false);
+        answer22.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer22);
+
+        HashMap<String,Boolean> answer23 = new HashMap<>();
+        answer23.put("Dickens",true);
+        answer23.put("George Eliot",false);
+        answer23.put("Hardy",false);
+        answer23.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer23);
+
+        HashMap<String,Boolean> answer24 = new HashMap<>();
+        answer24.put("Dickens",true);
+        answer24.put("George Eliot",false);
+        answer24.put("Hardy",false);
+        answer24.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer24);
+
+        HashMap<String,Boolean> answer25 = new HashMap<>();
+        answer25.put("Dickens",true);
+        answer25.put("George Eliot",false);
+        answer25.put("Hardy",false);
+        answer25.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer25);
+
+        HashMap<String,Boolean> answer26 = new HashMap<>();
+        answer26.put("Dickens",true);
+        answer26.put("George Eliot",false);
+        answer26.put("Hardy",false);
+        answer26.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer26);
+
+        HashMap<String,Boolean> answer27 = new HashMap<>();
+        answer27.put("Dickens",true);
+        answer27.put("George Eliot",false);
+        answer27.put("Hardy",false);
+        answer27.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer27);
+
+        HashMap<String,Boolean> answer28 = new HashMap<>();
+        answer28.put("Southey",true);
+        answer28.put("Tennyson",false);
+        answer28.put("Byron",false);
+        answer28.put("Wordsworth",false);
+        questions.put("Which one of the following poets was appointed Poet Laureate in the year 2823?",answer28);
+
+        HashMap<String,Boolean> answer29 = new HashMap<>();
+        answer29.put("Wordsworth",true);
+        answer29.put("Keats",false);
+        answer29.put("Byron",false);
+        answer29.put("Blake",false);
+        questions.put("Who believed that poetry is the spontaneous overflow of emotions?",answer29);
+
+        HashMap<String,Boolean> answer30 = new HashMap<>();
+        answer30.put("Dickens",true);
+        answer30.put("George Eliot",false);
+        answer30.put("Hardy",false);
+        answer30.put("None of the above",false);
+        questions.put("Moral choice is everything in the works of:",answer30);
 
         return questions;
     }
