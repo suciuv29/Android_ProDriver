@@ -39,16 +39,18 @@ public class RandomQuizActivity extends AppCompatActivity {
         TextView tvTitle = findViewById(R.id.textView26);
 
         if (subject.equals(getString(R.string.catc))) {
-            questionsAnswerMap = Utils.getRandomQuestions(this,getString(R.string.catc),Constants.QUESTION_SHOWING);
+            questionsAnswerMap = Utils.getRandomQuestions(this, getString(R.string.catc), Constants.QUESTION_SHOWING);
             tvTitle.setText(getString(R.string.catc_quiz));
-        }else if(subject.equals(getString(R.string.catb))){
-            questionsAnswerMap = Utils.getRandomQuestions(this,getString(R.string.catb),Constants.QUESTION_SHOWING);
+        } else if (subject.equals(getString(R.string.catb))) {
+            questionsAnswerMap = Utils.getRandomQuestions(this, getString(R.string.catb), Constants.QUESTION_SHOWING);
             tvTitle.setText(getString(R.string.catb_quiz));
-        }else if(subject.equals(getString(R.string.cata))){
-            questionsAnswerMap = Utils.getRandomQuestions(this,getString(R.string.cata),Constants.QUESTION_SHOWING);
+        } else if (subject.equals(getString(R.string.cata))) {
+            questionsAnswerMap = Utils.getRandomQuestions(this, getString(R.string.cata), Constants.QUESTION_SHOWING);
             tvTitle.setText(getString(R.string.cata_quiz));
-        }else{questionsAnswerMap = Utils.getRandomQuestions(this,getString(R.string.catd),Constants.QUESTION_SHOWING);
-            tvTitle.setText(getString(R.string.catD_quiz));}
+        } else {
+            questionsAnswerMap = Utils.getRandomQuestions(this, getString(R.string.catd), Constants.QUESTION_SHOWING);
+            tvTitle.setText(getString(R.string.catD_quiz));
+        }
 
         questions = new ArrayList<>(questionsAnswerMap.keySet());
 
@@ -67,26 +69,37 @@ public class RandomQuizActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                RadioButton radioButton =  findViewById(radioGroup.getCheckedRadioButtonId());
+                RadioButton radioButton = findViewById(radioGroup.getCheckedRadioButtonId());
                 boolean answer = questionsAnswerMap.get(questions.get(currentQuestionIndex)).get(radioButton.getText());
 
-                if (answer){
+                if (answer) {
                     correctQuestion++;
                 }
 
                 currentQuestionIndex++;
 
-                if (btnNext.getText().equals(getString(R.string.next))){
-                    displayNextQuestions();
-                }else{
-                    Intent intentResult = new Intent(RandomQuizActivity.this,FinalResultActivity.class);
-                    intentResult.putExtra(Constants.SUBJECT,subject.substring(10,11));
-                    intentResult.putExtra(Constants.CORRECT,correctQuestion);
-                    intentResult.putExtra(Constants.INCORRECT,Constants.QUESTION_SHOWING - correctQuestion);
+                if (btnNext.getText().equals(getString(R.string.next))) {
+                    if ((currentQuestionIndex - correctQuestion) == 5) {
+                        Intent intentResult = new Intent(RandomQuizActivity.this, FinalResultActivity.class);
+                        intentResult.putExtra(Constants.SUBJECT, subject.substring(10,11));
+                        intentResult.putExtra(Constants.CORRECT, correctQuestion);
+                        intentResult.putExtra(Constants.INCORRECT, currentQuestionIndex - correctQuestion);
+                        intentResult.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                        startActivity(intentResult);
+                        finish();
+                    } else {
+                        displayNextQuestions();
+                    }
+                } else {
+                    Intent intentResult = new Intent(RandomQuizActivity.this, FinalResultActivity.class);
+                    intentResult.putExtra(Constants.SUBJECT, subject);
+                    intentResult.putExtra(Constants.CORRECT, correctQuestion);
+                    intentResult.putExtra(Constants.INCORRECT, currentQuestionIndex - correctQuestion);
                     intentResult.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                     startActivity(intentResult);
                     finish();
                 }
+
 
             }
         });
@@ -106,7 +119,7 @@ public class RandomQuizActivity extends AppCompatActivity {
         tvQuestion.setText(questions.get(currentQuestionIndex));
         tvQuestionNumber.setText("Întrebarea curentă: " + (currentQuestionIndex + 1));
 
-        if (currentQuestionIndex == Constants.QUESTION_SHOWING  - 1){
+        if (currentQuestionIndex == Constants.QUESTION_SHOWING - 1) {
             btnNext.setText(getText(R.string.finish));
         }
     }
@@ -118,7 +131,7 @@ public class RandomQuizActivity extends AppCompatActivity {
         setAnswersToRadioButton();
     }
 
-    private void setAnswersToRadioButton(){
+    private void setAnswersToRadioButton() {
 
         ArrayList<String> questionKey = new ArrayList(questionsAnswerMap.get(questions.get(currentQuestionIndex)).keySet());
 

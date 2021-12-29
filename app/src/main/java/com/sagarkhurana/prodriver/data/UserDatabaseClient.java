@@ -19,8 +19,4 @@ public class UserDatabaseClient {
         return instance;
     }
 
-    public UserDatabase getUserDatabase() {
-        return instance;
-    }
-
 }

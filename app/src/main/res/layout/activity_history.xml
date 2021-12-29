@@ -21,11 +21,11 @@
 
     <TextView
         android:id="@+id/textView"
+        style="@style/titleTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:text="@string/history"
-        style="@style/titleTextStyle"
         app:layout_constraintBottom_toBottomOf="@+id/imageViewHistory"
         app:layout_constraintStart_toEndOf="@+id/imageViewHistory"
         app:layout_constraintTop_toTopOf="@+id/imageViewHistory" />
@@ -42,12 +42,12 @@
 
     <TextView
         android:id="@+id/textView17"
+        style="@style/text_heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="2dp"
         android:layout_marginTop="16dp"
         android:text="@string/total_questions"
-        style="@style/text_heading"
         app:layout_constraintStart_toStartOf="@+id/textView9"
         app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
@@ -68,16 +68,16 @@
 
     <TextView
         android:id="@+id/tvTotalQuestionsHistory"
+        style="@style/text_heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        tools:text="16"
-        style="@style/text_heading"
         android:textColor="@color/peach"
         android:textSize="22sp"
         app:layout_constraintBottom_toBottomOf="@+id/textView17"
         app:layout_constraintStart_toEndOf="@+id/textView17"
-        app:layout_constraintTop_toTopOf="@+id/textView17" />
+        app:layout_constraintTop_toTopOf="@+id/textView17"
+        tools:text="16" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvHistory"

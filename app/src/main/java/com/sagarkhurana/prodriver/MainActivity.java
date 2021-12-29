@@ -32,28 +32,28 @@ public class MainActivity extends AppCompatActivity {
         cvStartQuiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,QuizOptionActivity.class));
+                startActivity(new Intent(MainActivity.this, QuizOptionActivity.class));
             }
         });
 
         cvRule.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,RuleActivity.class));
+                startActivity(new Intent(MainActivity.this, RuleActivity.class));
             }
         });
 
         cvHistory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,HistoryActivity.class));
+                startActivity(new Intent(MainActivity.this, HistoryActivity.class));
             }
         });
 
         cvEditPassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(MainActivity.this,EditPasswordActivity.class));
+                startActivity(new Intent(MainActivity.this, EditPasswordActivity.class));
             }
         });
 
@@ -61,13 +61,11 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 sharedPref.clearSharedPref(MainActivity.this);
-                Intent intent = new Intent(MainActivity.this,LoginActivity.class);
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             }
         });
-
-
 
 
     }

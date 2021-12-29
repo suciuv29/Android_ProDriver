@@ -10,7 +10,7 @@ import androidx.room.PrimaryKey;
 @Entity(tableName = "attempt")
 public class Attempt implements Parcelable {
 
-    @PrimaryKey(autoGenerate = false)
+    @PrimaryKey()
     @ColumnInfo(name = "createdTimeAttempt")
     private final long createdTime;
     @ColumnInfo(name = "subject")
@@ -65,10 +65,6 @@ public class Attempt implements Parcelable {
 
     public int getOverallPoints() {
         return overallPoints;
-    }
-
-    public static Creator<Attempt> getCREATOR() {
-        return CREATOR;
     }
 
     protected Attempt(Parcel in) {

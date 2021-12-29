@@ -38,16 +38,8 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.AttemptV
         Attempt item = attempts.get(position);
 
         holder.tvSubject.setText(String.valueOf(item.getSubject()));
-        holder.tvEarned.setText(String.valueOf(item.getEarned()));
-        holder.tvDate.setText(formatDate(item.getCreatedTime()));
-
-        holder.cvParent.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                // DO NOTHING
-            }
-        });
-
+        holder.tvEarned.setText(String.valueOf(item.getEarned()*5+"%"));
+        holder.tvDate.setText(formatDate());
     }
 
     @Override
@@ -57,7 +49,7 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.AttemptV
 
     public static class AttemptViewHolder extends RecyclerView.ViewHolder {
 
-        public TextView tvSubject,tvEarned,tvDate;
+        public TextView tvSubject, tvEarned, tvDate;
         public CardView cvParent;
 
         public AttemptViewHolder(View v) {

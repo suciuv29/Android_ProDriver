@@ -4,7 +4,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -16,7 +15,7 @@ import com.sagarkhurana.prodriver.other.SharedPref;
 
 public class EditPasswordActivity extends AppCompatActivity {
 
-    private EditText etOldPassword,etNewPassword,etConfirmNewPassword;
+    private EditText etOldPassword, etNewPassword, etConfirmNewPassword;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,35 +27,27 @@ public class EditPasswordActivity extends AppCompatActivity {
         etConfirmNewPassword = findViewById(R.id.tietPasswordConfirmNewPass);
         Button btnSavePassword = findViewById(R.id.btnChangePassword);
 
-        findViewById(R.id.imageViewEditPassword).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
-        });
+        findViewById(R.id.imageViewEditPassword).setOnClickListener(view -> finish());
 
-        btnSavePassword.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+        btnSavePassword.setOnClickListener(view -> {
 
-                String oldPassword = etOldPassword.getText().toString();
-                String newPassword = etNewPassword.getText().toString();
-                String confirmNewPassword = etConfirmNewPassword.getText().toString();
+            String oldPassword = etOldPassword.getText().toString();
+            String newPassword = etNewPassword.getText().toString();
+            String confirmNewPassword = etConfirmNewPassword.getText().toString();
 
-                if (!validateInput(oldPassword,newPassword,confirmNewPassword)) return;
+            if (!validateInput(oldPassword, newPassword, confirmNewPassword)) return;
 
-                changePassword(oldPassword, newPassword);
-            }
+            changePassword(oldPassword, newPassword);
         });
 
 
     }
 
-    private void changePassword(String oldPassword,String newPassword) {
+    private void changePassword(String oldPassword, String newPassword) {
 
         User user = SharedPref.getInstance().getUser(this);
-        if (!user.getPassword().equals(oldPassword)){
-            Toast.makeText(this, "Please enter the right password", Toast.LENGTH_SHORT).show();
+        if (!user.getPassword().equals(oldPassword)) {
+            Toast.makeText(this, "Te rog introdu parola corectă!", Toast.LENGTH_SHORT).show();
             return;
         }
         user.setPassword(newPassword);
@@ -67,27 +58,27 @@ public class EditPasswordActivity extends AppCompatActivity {
 
     private boolean validateInput(String oldPassword, String newPassword, String confirmNewPassword) {
 
-        if (oldPassword.isEmpty()){
+        if (oldPassword.isEmpty()) {
             Toast.makeText(this, getString(R.string.old_password_cannot_be_empty), Toast.LENGTH_SHORT).show();
             return false;
         }
 
-        if (newPassword.isEmpty()){
+        if (newPassword.isEmpty()) {
             Toast.makeText(this, getString(R.string.old_password_cannot_be_empty), Toast.LENGTH_SHORT).show();
             return false;
         }
 
-        if (confirmNewPassword.isEmpty()){
+        if (confirmNewPassword.isEmpty()) {
             Toast.makeText(this, getString(R.string.old_password_cannot_be_empty), Toast.LENGTH_SHORT).show();
             return false;
         }
 
-        if (!confirmNewPassword.equals(newPassword)){
+        if (!confirmNewPassword.equals(newPassword)) {
             Toast.makeText(this, getString(R.string.password_must_be_same), Toast.LENGTH_SHORT).show();
             return false;
         }
 
-        if (oldPassword.equals(newPassword)){
+        if (oldPassword.equals(newPassword)) {
             Toast.makeText(this, getString(R.string.new_password_must_be_different), Toast.LENGTH_SHORT).show();
             return false;
         }
@@ -113,8 +104,8 @@ public class EditPasswordActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
-            Toast.makeText(EditPasswordActivity.this, "Password Updated Successfully!", Toast.LENGTH_SHORT).show();
-            SharedPref.getInstance().setUser(EditPasswordActivity.this,user);
+            Toast.makeText(EditPasswordActivity.this, "Parola a fost modificată cu succes!", Toast.LENGTH_SHORT).show();
+            SharedPref.getInstance().setUser(EditPasswordActivity.this, user);
             finish();
         }
     }

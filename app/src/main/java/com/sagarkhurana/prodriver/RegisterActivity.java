@@ -42,37 +42,37 @@ public class RegisterActivity extends AppCompatActivity {
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                
+
                 String username = etUsername.getText().toString();
                 String email = etEmail.getText().toString();
                 String password = etPassword.getText().toString();
 
-                if (!validateInputs(username,email,password)) return;
+                if (!validateInputs(username, email, password)) return;
 
-                RegisterUserTask registerUserTask = new RegisterUserTask(username,email,password);
+                RegisterUserTask registerUserTask = new RegisterUserTask(username, email, password);
                 registerUserTask.execute();
             }
         });
     }
 
-    private boolean validateInputs(String username,String email,String password){
+    private boolean validateInputs(String username, String email, String password) {
 
-        if (username.isEmpty()){
+        if (username.isEmpty()) {
             Toast.makeText(this, getString(R.string.username_cannot_empty), Toast.LENGTH_SHORT).show();
             return false;
         }
 
-        if (email.isEmpty()){
+        if (email.isEmpty()) {
             Toast.makeText(this, getString(R.string.email_cannot_empty), Toast.LENGTH_SHORT).show();
             return false;
         }
 
-        if (!isValidEmail(email)){
+        if (!isValidEmail(email)) {
             Toast.makeText(this, getString(R.string.email_not_valid), Toast.LENGTH_SHORT).show();
             return false;
         }
 
-        if (password.isEmpty()){
+        if (password.isEmpty()) {
             Toast.makeText(this, getString(R.string.password_cannot_empty), Toast.LENGTH_SHORT).show();
             return false;
         }
@@ -85,8 +85,8 @@ public class RegisterActivity extends AppCompatActivity {
         private final String username;
         private final String email;
         private final String password;
-        private User user  ;
-        private boolean isOkay = true ;
+        private User user;
+        private boolean isOkay = true;
 
         public RegisterUserTask(String username, String email, String password) {
             this.username = username;
@@ -98,16 +98,16 @@ public class RegisterActivity extends AppCompatActivity {
         protected Void doInBackground(Void... voids) {
             UserDatabase databaseClient = UserDatabaseClient.getInstance(getApplicationContext());
 
-            user  = new User(
-                    username,   
+            user = new User(
+                    username,
                     email,
                     password
             );
 
             try {
                 databaseClient.userDao().insertUser(user);
-            }catch (SQLiteConstraintException e){
-                isOkay =false;
+            } catch (SQLiteConstraintException e) {
+                isOkay = false;
             }
 
             return null;
@@ -117,15 +117,15 @@ public class RegisterActivity extends AppCompatActivity {
         protected void onPostExecute(Void aVoid) {
             super.onPostExecute(aVoid);
 
-            if (isOkay){
+            if (isOkay) {
                 Toast.makeText(RegisterActivity.this, "User Created!", Toast.LENGTH_SHORT).show();
                 SharedPref sharedPref = SharedPref.getInstance();
-                sharedPref.setUser(RegisterActivity.this,user);
-                Intent intent = new Intent(RegisterActivity.this,MainActivity.class);
+                sharedPref.setUser(RegisterActivity.this, user);
+                Intent intent = new Intent(RegisterActivity.this, MainActivity.class);
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(intent);
                 finish();
-            }else{
+            } else {
                 Toast.makeText(RegisterActivity.this, "This email is already using by someone else", Toast.LENGTH_SHORT).show();
             }
 

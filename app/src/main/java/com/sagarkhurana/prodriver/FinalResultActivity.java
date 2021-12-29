@@ -20,7 +20,7 @@ import java.util.Calendar;
 
 public class FinalResultActivity extends AppCompatActivity {
 
-    private TextView tvSubject, tvCorrect, tvIncorrect, tvEarned, tvOverallStatus, tvDate;
+    private TextView tvSubject, tvCorrect, tvIncorrect,tvEarned, tvOverallStatus, tvDate;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +34,7 @@ public class FinalResultActivity extends AppCompatActivity {
         String email = SharedPref.getInstance().getUser(this).getEmail();
         int earnedPoints = (correctAnswer * Constants.CORRECT_POINT) - (incorrectAnswer * Constants.INCORRECT_POINT);
 
+
         tvSubject = findViewById(R.id.textView16);
         tvCorrect = findViewById(R.id.textView19);
         tvIncorrect = findViewById(R.id.textView27);
@@ -44,7 +45,7 @@ public class FinalResultActivity extends AppCompatActivity {
         findViewById(R.id.imageViewFinalResultQuiz).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(FinalResultActivity.this,MainActivity.class);
+                Intent intent = new Intent(FinalResultActivity.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -53,7 +54,7 @@ public class FinalResultActivity extends AppCompatActivity {
         findViewById(R.id.btnFinishQuiz).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(FinalResultActivity.this,MainActivity.class);
+                Intent intent = new Intent(FinalResultActivity.this, MainActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -74,7 +75,7 @@ public class FinalResultActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Intent intent = new Intent(this,MainActivity.class);
+        Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
         finish();
     }
@@ -118,9 +119,9 @@ public class FinalResultActivity extends AppCompatActivity {
         tvSubject.setText(attempt.getSubject());
         tvCorrect.setText(String.valueOf(attempt.getCorrect()));
         tvIncorrect.setText(String.valueOf(attempt.getIncorrect()));
-        tvEarned.setText(String.valueOf(attempt.getEarned()));
+        tvEarned.setText(String.valueOf(attempt.getEarned()*5)+"%");
         tvOverallStatus.setText(String.valueOf(attempt.getOverallPoints()));
-        tvDate.setText(Utils.formatDate(attempt.getCreatedTime()));
+        tvDate.setText(Utils.formatDate());
 
     }
 

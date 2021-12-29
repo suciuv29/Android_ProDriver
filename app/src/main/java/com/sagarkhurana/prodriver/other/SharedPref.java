@@ -24,16 +24,16 @@ public class SharedPref {
         return instance;
     }
 
-    public void setUser(Context context, User user){
+    public void setUser(Context context, User user) {
         SharedPreferences pref = context.getSharedPreferences(sharedPreferencesName, Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = pref.edit();
-        editor.putString(Constants.USER,new Gson().toJson(user));
+        editor.putString(Constants.USER, new Gson().toJson(user));
         editor.apply();
     }
 
-    public User getUser(Context context){
+    public User getUser(Context context) {
         SharedPreferences pref = context.getSharedPreferences(sharedPreferencesName, Context.MODE_PRIVATE);
-        return new Gson().fromJson(pref.getString(Constants.USER,""),User.class);
+        return new Gson().fromJson(pref.getString(Constants.USER, ""), User.class);
     }
 
     public void clearSharedPref(@NonNull Context context) {

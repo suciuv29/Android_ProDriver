@@ -14,7 +14,7 @@ public class User implements Parcelable {
     @ColumnInfo(name = "username")
     private final String username;
     @NonNull
-    @PrimaryKey(autoGenerate = false)
+    @PrimaryKey()
     @ColumnInfo(name = "email")
     private final String email;
     @ColumnInfo(name = "password")
@@ -41,10 +41,6 @@ public class User implements Parcelable {
 
     public String getPassword() {
         return password;
-    }
-
-    public static Creator<User> getCREATOR() {
-        return CREATOR;
     }
 
     protected User(Parcel in) {

@@ -10,13 +10,13 @@
 
     <TextView
         android:id="@+id/textView2"
+        style="@style/titleTextStyle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
         android:text="Acasă"
         android:textColor="@color/white"
-        style="@style/titleTextStyle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -25,11 +25,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        tools:text="Hello, Kevin"
         android:textColor="@color/white"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:text="Hello, Kevin" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="0dp"
@@ -136,13 +136,13 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cvHistory"
-            android:layout_width="0dp"
             style="@style/cardViewStyle"
+            android:layout_width="0dp"
             android:layout_height="@dimen/home_card_height"
             app:layout_constraintBottom_toBottomOf="@+id/cvRule"
             app:layout_constraintEnd_toEndOf="@+id/cvStartQuiz"
             app:layout_constraintStart_toEndOf="@+id/cvRule"
-            app:layout_constraintTop_toTopOf="@+id/cvRule" >
+            app:layout_constraintTop_toTopOf="@+id/cvRule">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -156,8 +156,8 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintVertical_bias="0.35"
                     app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.35"
                     app:srcCompat="@drawable/history" />
 
                 <TextView
@@ -176,13 +176,13 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cvEditPassword"
+            style="@style/cardViewStyle"
             android:layout_width="0dp"
             android:layout_height="@dimen/home_card_height"
-            style="@style/cardViewStyle"
             android:layout_marginTop="16dp"
             app:layout_constraintEnd_toEndOf="@+id/cvRule"
             app:layout_constraintStart_toStartOf="@+id/cvRule"
-            app:layout_constraintTop_toBottomOf="@+id/cvRule" >
+            app:layout_constraintTop_toBottomOf="@+id/cvRule">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -216,13 +216,13 @@
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cvLogout"
-            android:layout_width="0dp"
             style="@style/cardViewStyle"
+            android:layout_width="0dp"
             android:layout_height="@dimen/home_card_height"
             app:layout_constraintBottom_toBottomOf="@+id/cvEditPassword"
             app:layout_constraintEnd_toEndOf="@+id/cvHistory"
             app:layout_constraintStart_toStartOf="@+id/cvHistory"
-            app:layout_constraintTop_toTopOf="@+id/cvEditPassword" >
+            app:layout_constraintTop_toTopOf="@+id/cvEditPassword">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
@@ -250,10 +250,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
 
-
             </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 
 
         </androidx.cardview.widget.CardView>

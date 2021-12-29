@@ -11,5 +11,4 @@ public class Constants {
     public static final int INCORRECT_POINT = 0;
 
 
-
 }

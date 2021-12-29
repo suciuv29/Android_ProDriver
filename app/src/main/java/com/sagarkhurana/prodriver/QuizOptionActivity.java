@@ -33,7 +33,7 @@ public class QuizOptionActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(QuizOptionActivity.this, RandomQuizActivity.class);
-                intent.putExtra(Constants.SUBJECT,getString(R.string.cata));
+                intent.putExtra(Constants.SUBJECT, getString(R.string.cata));
                 startActivity(intent);
             }
         });
@@ -42,7 +42,7 @@ public class QuizOptionActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(QuizOptionActivity.this, RandomQuizActivity.class);
-                intent.putExtra(Constants.SUBJECT,getString(R.string.catb));
+                intent.putExtra(Constants.SUBJECT, getString(R.string.catb));
                 startActivity(intent);
             }
         });
@@ -51,7 +51,7 @@ public class QuizOptionActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(QuizOptionActivity.this, RandomQuizActivity.class);
-                intent.putExtra(Constants.SUBJECT,getString(R.string.catc));
+                intent.putExtra(Constants.SUBJECT, getString(R.string.catc));
                 startActivity(intent);
             }
         });
@@ -60,7 +60,7 @@ public class QuizOptionActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(QuizOptionActivity.this, RandomQuizActivity.class);
-                intent.putExtra(Constants.SUBJECT,getString(R.string.catd));
+                intent.putExtra(Constants.SUBJECT, getString(R.string.catd));
                 startActivity(intent);
             }
         });

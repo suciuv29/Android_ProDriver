@@ -28,22 +28,21 @@ public class RulesViewPagerAdapter extends PagerAdapter {
 
     @Override
     public boolean isViewFromObject(@NonNull View view, @NonNull Object object) {
-        return view==object;
+        return view == object;
     }
 
     @NonNull
     @Override
     public Object instantiateItem(@NonNull ViewGroup container, final int position) {
 
-        LayoutInflater layoutInflater= (LayoutInflater) ctx.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View view=layoutInflater.inflate(R.layout.slide_rules,container,false);
+        LayoutInflater layoutInflater = (LayoutInflater) ctx.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        View view = layoutInflater.inflate(R.layout.slide_rules, container, false);
 
         GifImageView logo = view.findViewById(R.id.dancer);
 
         TextView title = view.findViewById(R.id.textView31);
 
-        switch (position)
-        {
+        switch (position) {
             case 0:
                 logo.setImageResource(R.drawable.question1);
                 title.setText(R.string.rules1_description);
@@ -64,6 +63,7 @@ public class RulesViewPagerAdapter extends PagerAdapter {
         container.addView(view);
         return view;
     }
+
     @Override
     public void destroyItem(@NonNull ViewGroup container, int position, @NonNull Object object) {
         container.removeView((View) object);
