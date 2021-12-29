@@ -819,74 +819,74 @@ public class Utils {
         questions.put("Injecţia de benzină monopunct se realizează în:", answer20);
 
         HashMap<String, Boolean> answer21 = new HashMap<>();
-        answer21.put("Dickens", true);
-        answer21.put("George Eliot", false);
-        answer21.put("Hardy", false);
-        answer21.put("None of the above", false);
-        questions.put("Moral choice is everything in the works of:", answer21);
+        answer21.put("să nu mărească viteza;", true);
+        answer21.put("să pună în funcţiune luminile indicatoare de direcţie intermitente;", false);
+        answer21.put("să se angajeze cât mai aproape de marginea din stanga al axul drumului;", false);
+        answer21.put("sa opreasca", false);
+        questions.put("Ce trebuie să facă conducătorul unui autobuz, atunci când sesizează că urmează să fie depăşit?", answer21);
 
         HashMap<String, Boolean> answer22 = new HashMap<>();
-        answer22.put("Dickens", true);
-        answer22.put("George Eliot", false);
-        answer22.put("Hardy", false);
-        answer22.put("None of the above", false);
-        questions.put("Moral choice is everything in the works of:", answer22);
+        answer22.put("la o distanţă mai mică de 25 m înainte şi după indicatorul staţiei pentru mijloacele de transport public de persoane;", true);
+        answer22.put("pe partea carosabilă a drumurilor naţionale;", false);
+        answer22.put("pe partea carosabilă a drumurilor judeţene;", false);
+        answer22.put("la mai puţin de 50 m de cel mai apropiat colţ al intersecţiei;", false);
+        questions.put("În care dintre situaţiile de mai jos este interzisă oprirea autobuzelor pe drumurile publice?", answer22);
 
         HashMap<String, Boolean> answer23 = new HashMap<>();
-        answer23.put("Dickens", true);
-        answer23.put("George Eliot", false);
-        answer23.put("Hardy", false);
-        answer23.put("None of the above", false);
-        questions.put("Moral choice is everything in the works of:", answer23);
+        answer23.put("la trecerea la nivel cu calea ferată;", true);
+        answer23.put("când este depăşit de un alt autovehicul;", false);
+        answer23.put("pe poduri", false);
+        answer23.put("pe sectoarele de drum îngustat;", false);
+        questions.put("În care dintre următoarele situaţii conducătorul unui autobuz are obligaţia de a reduce viteza?", answer23);
 
         HashMap<String, Boolean> answer24 = new HashMap<>();
-        answer24.put("Dickens", true);
-        answer24.put("George Eliot", false);
-        answer24.put("Hardy", false);
-        answer24.put("None of the above", false);
-        questions.put("Moral choice is everything in the works of:", answer24);
+        answer24.put("supapele de admisie defecte;", true);
+        answer24.put("garnitura de chiulasă ruptă între doi cilindri;", false);
+        answer24.put("supapele de evacuare defecte;", false);
+        answer24.put("joja de ulei", false);
+        questions.put("Exploziile cadenţate în carburator sunt cauzate de:", answer24);
 
         HashMap<String, Boolean> answer25 = new HashMap<>();
-        answer25.put("Dickens", true);
-        answer25.put("George Eliot", false);
-        answer25.put("Hardy", false);
-        answer25.put("None of the above", false);
-        questions.put("Moral choice is everything in the works of:", answer25);
+        answer25.put("90 km/h;", true);
+        answer25.put("70 km/h;", false);
+        answer25.put("80 km/h;", false);
+        answer25.put("100 km/h;", false);
+        questions.put("Care este limita maximă de viteză în afara localităţilor, pentru categoria D şi subcategoria D1, pe drumurile naţionale europene E?", answer25);
 
         HashMap<String, Boolean> answer26 = new HashMap<>();
-        answer26.put("Dickens", true);
-        answer26.put("George Eliot", false);
-        answer26.put("Hardy", false);
-        answer26.put("None of the above", false);
-        questions.put("Moral choice is everything in the works of:", answer26);
+        answer26.put("raportul dintre volumul cilindrului şi volumul camerei de ardere;", true);
+        answer26.put("raportul dintre volumul camerei de ardere şi volumul cilindrului;", false);
+        answer26.put("raportul dintre volumul tuturor cilindrilor şi volumul pistoanelor;", false);
+        answer26.put("raportul dintre volumul camerei de ardere şi volumul pistoanelor;", false);
+        questions.put("Prin „raport de compresie” se înţelege:", answer26);
 
         HashMap<String, Boolean> answer27 = new HashMap<>();
-        answer27.put("Dickens", true);
-        answer27.put("George Eliot", false);
-        answer27.put("Hardy", false);
-        answer27.put("None of the above", false);
-        questions.put("Moral choice is everything in the works of:", answer27);
+        answer27.put("pe marginea exterioară;", true);
+        answer27.put("pe marginea interioară;", false);
+        answer27.put("pe toată lăţimea;", false);
+        answer27.put("pe mijloc", false);
+        questions.put("Unghiul de cădere prea mare la o roată duce la uzura uniformă a pneurilor:", answer27);
 
         HashMap<String, Boolean> answer28 = new HashMap<>();
-        answer28.put("Southey", true);
-        answer28.put("Tennyson", false);
-        answer28.put("Byron", false);
-        answer28.put("Wordsworth", false);
-        questions.put("Which one of the following poets was appointed Poet Laureate in the year 2823?", answer28);
+        answer28.put("da, dacă se aprind luminile de poziţie sau de staţionare;", true);
+        answer28.put("nu, întrucât în toate cazurile se interzice pe timpul nopţii staţionarea pe partea carosabilă;", false);
+        answer28.put("da, dacă în afara luminilor de poziţie, prezenţa autobuzului este semnalizată şi cu ajutorul triunghiurilor reflectorizante;", false);
+        answer28.put("da, in orice caz", false);
+        questions.put("Este permisă staţionarea autobuzelor pe timpul nopţii pe partea carosabilă a unui drum comunal neiluminat??", answer28);
 
         HashMap<String, Boolean> answer29 = new HashMap<>();
-        answer29.put("Wordsworth", true);
-        answer29.put("Keats", false);
-        answer29.put("Byron", false);
-        answer29.put("Blake", false);
-        questions.put("Who believed that poetry is the spontaneous overflow of emotions?", answer29);
+        answer29.put("să nu se agraveze leziunile;", true);
+        answer29.put("ca operaţiunea să se desfăşoare rapid şi fără să provoace alte traumatisme;", false);
+        answer29.put("să nu se îndepărteze indiciile care ar putea ajuta la explicarea modului în care s-a produs accidentul;", false);
+        answer29.put("nicio varianta nu este corecta", false);
+        questions.put("Ce trebuie să aveţi în vedere la scoaterea persoanelor accidentate din autovehicul?Ce trebuie să aveţi în vedere la scoaterea persoanelor accidentate din autovehicul?", answer29);
 
         HashMap<String, Boolean> answer30 = new HashMap<>();
-        answer30.put("Dickens", true);
-        answer30.put("George Eliot", false);
-        answer30.put("Hardy", false);
-        answer30.put("None of the above", false);
-        questions.put("Moral choice is everything in the works of:", answer30);
+        answer30.put("galeria de admisie;", true);
+        answer30.put("galeria de evacuare;", false);
+        answer30.put("toba de eşapament;", false);
+        answer30.put("motor", false);
+        questions.put("Amestecul carburant foarte sărac provoacă rateuri în:", answer30);
 
         return questions;
     }
