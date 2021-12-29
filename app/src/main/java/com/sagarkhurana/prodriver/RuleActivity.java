@@ -1,4 +1,4 @@
-package com.sagarkhurana.quizforfun;
+package com.sagarkhurana.prodriver;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
@@ -6,7 +6,7 @@ import androidx.viewpager.widget.ViewPager;
 import android.os.Bundle;
 import android.widget.ImageView;
 
-import com.sagarkhurana.quizforfun.adapter.RulesViewPagerAdapter;
+import com.sagarkhurana.prodriver.adapter.RulesViewPagerAdapter;
 import com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator;
 
 public class RuleActivity extends AppCompatActivity {

@@ -1,15 +1,13 @@
-package com.sagarkhurana.quizforfun.other;
+package com.sagarkhurana.prodriver.other;
 
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.Patterns;
 
-import com.sagarkhurana.quizforfun.R;
+import com.sagarkhurana.prodriver.R;
 
-import java.sql.Time;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Locale;

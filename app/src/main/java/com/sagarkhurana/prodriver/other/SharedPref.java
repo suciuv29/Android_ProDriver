@@ -1,4 +1,4 @@
-package com.sagarkhurana.quizforfun.other;
+package com.sagarkhurana.prodriver.other;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -6,7 +6,7 @@ import android.content.SharedPreferences;
 import androidx.annotation.NonNull;
 
 import com.google.gson.Gson;
-import com.sagarkhurana.quizforfun.data.User;
+import com.sagarkhurana.prodriver.data.User;
 
 public class SharedPref {
 

@@ -1,4 +1,4 @@
-package com.sagarkhurana.quizforfun;
+package com.sagarkhurana.prodriver;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
@@ -8,8 +8,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.sagarkhurana.quizforfun.data.User;
-import com.sagarkhurana.quizforfun.other.SharedPref;
+import com.sagarkhurana.prodriver.data.User;
+import com.sagarkhurana.prodriver.other.SharedPref;
 
 public class MainActivity extends AppCompatActivity {
 

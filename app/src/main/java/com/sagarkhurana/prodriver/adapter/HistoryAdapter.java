@@ -1,4 +1,4 @@
-package com.sagarkhurana.quizforfun.adapter;
+package com.sagarkhurana.prodriver.adapter;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,12 +9,12 @@ import androidx.annotation.NonNull;
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.sagarkhurana.quizforfun.R;
-import com.sagarkhurana.quizforfun.data.Attempt;
+import com.sagarkhurana.prodriver.R;
+import com.sagarkhurana.prodriver.data.Attempt;
 
 import java.util.List;
 
-import static com.sagarkhurana.quizforfun.other.Utils.formatDate;
+import static com.sagarkhurana.prodriver.other.Utils.formatDate;
 
 public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.AttemptViewHolder> {
 

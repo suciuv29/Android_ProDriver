@@ -1,4 +1,4 @@
-package com.sagarkhurana.quizforfun;
+package com.sagarkhurana.prodriver;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,8 +10,8 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 
-import com.sagarkhurana.quizforfun.other.Constants;
-import com.sagarkhurana.quizforfun.other.Utils;
+import com.sagarkhurana.prodriver.other.Constants;
+import com.sagarkhurana.prodriver.other.Utils;
 
 import java.util.ArrayList;
 import java.util.List;

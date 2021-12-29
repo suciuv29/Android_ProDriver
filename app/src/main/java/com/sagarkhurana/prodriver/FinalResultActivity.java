@@ -1,4 +1,4 @@
-package com.sagarkhurana.quizforfun;
+package com.sagarkhurana.prodriver;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,12 +9,12 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-import com.sagarkhurana.quizforfun.data.Attempt;
-import com.sagarkhurana.quizforfun.data.UserDatabase;
-import com.sagarkhurana.quizforfun.data.UserDatabaseClient;
-import com.sagarkhurana.quizforfun.other.Constants;
-import com.sagarkhurana.quizforfun.other.SharedPref;
-import com.sagarkhurana.quizforfun.other.Utils;
+import com.sagarkhurana.prodriver.data.Attempt;
+import com.sagarkhurana.prodriver.data.UserDatabase;
+import com.sagarkhurana.prodriver.data.UserDatabaseClient;
+import com.sagarkhurana.prodriver.other.Constants;
+import com.sagarkhurana.prodriver.other.SharedPref;
+import com.sagarkhurana.prodriver.other.Utils;
 
 import java.util.Calendar;
 

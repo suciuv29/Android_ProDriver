@@ -1,4 +1,4 @@
-package com.sagarkhurana.quizforfun;
+package com.sagarkhurana.prodriver;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
@@ -7,7 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.sagarkhurana.quizforfun.other.Constants;
+import com.sagarkhurana.prodriver.other.Constants;
 
 public class QuizOptionActivity extends AppCompatActivity {
 

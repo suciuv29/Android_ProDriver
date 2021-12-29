@@ -1,4 +1,4 @@
-package com.sagarkhurana.quizforfun.data;
+package com.sagarkhurana.prodriver.data;
 
 import androidx.room.Dao;
 import androidx.room.Delete;

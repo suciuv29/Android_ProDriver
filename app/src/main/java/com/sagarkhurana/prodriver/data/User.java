@@ -1,15 +1,12 @@
-package com.sagarkhurana.quizforfun.data;
+package com.sagarkhurana.prodriver.data;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
-import androidx.room.Embedded;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
-
-import java.util.List;
 
 @Entity(tableName = "user")
 public class User implements Parcelable {

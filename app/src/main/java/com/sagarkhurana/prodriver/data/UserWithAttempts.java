@@ -1,4 +1,4 @@
-package com.sagarkhurana.quizforfun.data;
+package com.sagarkhurana.prodriver.data;
 
 import android.os.Parcel;
 import android.os.Parcelable;

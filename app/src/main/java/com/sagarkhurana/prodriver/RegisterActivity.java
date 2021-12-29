@@ -1,4 +1,4 @@
-package com.sagarkhurana.quizforfun;
+package com.sagarkhurana.prodriver;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -12,15 +12,12 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-import com.sagarkhurana.quizforfun.data.User;
-import com.sagarkhurana.quizforfun.data.UserDatabase;
-import com.sagarkhurana.quizforfun.data.UserDatabaseClient;
-import com.sagarkhurana.quizforfun.other.SharedPref;
+import com.sagarkhurana.prodriver.data.User;
+import com.sagarkhurana.prodriver.data.UserDatabase;
+import com.sagarkhurana.prodriver.data.UserDatabaseClient;
+import com.sagarkhurana.prodriver.other.SharedPref;
 
-import java.util.ArrayList;
-import java.util.Calendar;
-
-import static com.sagarkhurana.quizforfun.other.Utils.isValidEmail;
+import static com.sagarkhurana.prodriver.other.Utils.isValidEmail;
 
 public class RegisterActivity extends AppCompatActivity {
 
