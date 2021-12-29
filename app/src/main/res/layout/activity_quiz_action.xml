@@ -61,12 +61,13 @@ last name of Hitler?" />
                 android:id="@+id/btnNextQuestion"
                 style="@style/btnStyle"
                 android:layout_width="0dp"
-                android:layout_marginBottom="40dp"
+                android:layout_marginBottom="2056dp"
                 android:imeOptions="actionDone"
                 android:singleLine="true"
                 android:text="@string/next"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="@+id/textView78"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="@+id/textView78" />
 
             <RadioGroup
@@ -84,29 +85,29 @@ last name of Hitler?" />
                     android:id="@+id/radioButton1"
                     style="@style/text_radio_button_answer"
                     android:layout_width="match_parent"
-                    android:layout_height="73dp"
+                    android:layout_height="90dp"
                     tools:text="Answer 1" />
+
 
                 <RadioButton
                     android:id="@+id/radioButton2"
                     style="@style/text_radio_button_answer"
                     android:layout_width="match_parent"
-                    android:layout_height="64dp"
+                    android:layout_height="100dp"
                     tools:text="Answer 2" />
-
 
                 <RadioButton
                     android:id="@+id/radioButton3"
                     style="@style/text_radio_button_answer"
                     android:layout_width="match_parent"
-                    android:layout_height="70dp"
+                    android:layout_height="96dp"
                     tools:text="Answer 3" />
 
                 <RadioButton
                     android:id="@+id/radioButton4"
                     style="@style/text_radio_button_answer"
                     android:layout_width="match_parent"
-                    android:layout_height="64dp"
+                    android:layout_height="84dp"
                     tools:text="Answer 4" />
 
 
@@ -123,8 +124,10 @@ last name of Hitler?" />
                 android:textStyle="bold"
                 app:layout_constraintBottom_toTopOf="@+id/btnNextQuestion"
                 app:layout_constraintEnd_toEndOf="@+id/radioGroup"
+                app:layout_constraintHorizontal_bias="0.397"
                 app:layout_constraintStart_toStartOf="@+id/radioGroup"
                 app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+                app:layout_constraintVertical_bias="0.0"
                 tools:text="Current Question: 2" />
 
 

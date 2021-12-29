@@ -80,7 +80,7 @@ public class RandomQuizActivity extends AppCompatActivity {
                     displayNextQuestions();
                 }else{
                     Intent intentResult = new Intent(RandomQuizActivity.this,FinalResultActivity.class);
-                    intentResult.putExtra(Constants.SUBJECT,subject);
+                    intentResult.putExtra(Constants.SUBJECT,subject.substring(10,11));
                     intentResult.putExtra(Constants.CORRECT,correctQuestion);
                     intentResult.putExtra(Constants.INCORRECT,Constants.QUESTION_SHOWING - correctQuestion);
                     intentResult.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);

@@ -6,9 +6,11 @@ import android.util.Patterns;
 
 import com.sagarkhurana.quizforfun.R;
 
+import java.sql.Time;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
@@ -21,11 +23,9 @@ public class Utils {
     }
 
     public static String formatDate(long time){
-        SimpleDateFormat formatter = new SimpleDateFormat(Constants.DATE_FORMAT, Locale.getDefault());
-
-        Calendar calendar = Calendar.getInstance();
-        calendar.setTimeInMillis(time);
-        return formatter.format(calendar.getTime());
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd, HH:mm", Locale.getDefault());
+        String currentDateandTime = sdf.format(new Date());
+        return currentDateandTime;
     }
 
 
@@ -173,6 +173,7 @@ public class Utils {
         answer20.put("atunci când indicatoarele sunt instalate împreună cu semaforul pe acelaşi suport;",false);
         answer20.put("în orice caz;",false);
         questions.put("Semnificaţia indicatoarelor „Oprire” şi „Cedează trecerea”, instalate în intersecţiile semaforizate, trebuie respectată:",answer20);
+
 
         return questions;
     }
@@ -614,7 +615,7 @@ public class Utils {
 
         return questions;
     }
-    public static Map<String,Map<String,Boolean>> getRandomQuestions(Context context, String subject, int SIZE){
+    public static Map<String,Map<String,Boolean>> getRandomQuestions(Context context, String subject, long SIZE){
         Map<String,Map<String,Boolean>> questionsMap = new HashMap<>();
         Map<String, Map<String, Boolean>> originalQuestion;
         if (subject.equals(context.getString(R.string.cata))){

@@ -104,14 +104,17 @@
 
     <TextView
         android:id="@+id/textView16"
+        style="@style/text_value_heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        tools:text="Categoria A"
-        style="@style/text_value_heading"
+        android:layout_marginStart="8dp"
         app:layout_constraintBottom_toBottomOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView14"
-        app:layout_constraintTop_toTopOf="@+id/textView10" />
+        app:layout_constraintTop_toTopOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="Categoria A" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnFinishQuiz"
