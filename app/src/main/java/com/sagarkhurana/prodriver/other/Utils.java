@@ -386,74 +386,75 @@ public class Utils {
         questions.put("La întâlnirea indicatorului de avertizare în cruce, amplasat la trecerile la nivel cu calea ferată fără bariere, conducătorii de vehicule vor opri:", answer20);
 
         HashMap<String, Boolean> answer21 = new HashMap<>();
-        answer21.put("Dickens", true);
-        answer21.put("George Eliot", false);
-        answer21.put("Hardy", false);
-        answer21.put("None of the above", false);
-        questions.put("Moral choice is everything in the works of:", answer21);
+        answer21.put("rândul din stânga;", false);
+        answer21.put("rândul din dreapta;", false);
+        answer21.put("oricare dintre rânduri;", true);
+        answer21.put("toate raspunsurile sunt corecte;", false);
+        questions.put("La intersecţiile fără marcaje, conducătorii auto care vor să circule pe direcţia înainte vor ocupa:", answer21);
 
         HashMap<String, Boolean> answer22 = new HashMap<>();
-        answer22.put("Dickens", true);
-        answer22.put("George Eliot", false);
-        answer22.put("Hardy", false);
-        answer22.put("None of the above", false);
-        questions.put("Moral choice is everything in the works of:", answer22);
+        answer22.put("să respecte semnificaţia semnalului verde;", true);
+        answer22.put("să respecte semnificaţia indicatorului;", false);
+        answer22.put("să respecte semnificaţia semnalului verde, acordând prioritate de trecere vehiculelor care circulă pe drumul prioritar;", false);
+        answer22.put("toate raspunsurile sunt corecte;", false);
+        questions.put("Dacă într-o intersecţie conducătorul de vehicul întâlneşte semnalul verde al semaforului, precum şi indicatorul „Cedează trecerea”, el este obligat:", answer22);
 
         HashMap<String, Boolean> answer23 = new HashMap<>();
-        answer23.put("Dickens", true);
-        answer23.put("George Eliot", false);
-        answer23.put("Hardy", false);
-        answer23.put("None of the above", false);
-        questions.put("Moral choice is everything in the works of:", answer23);
+        answer23.put("să reducă viteza, fără a depăşi linia continuă pentru oprire;", false);
+        answer23.put("să oprească autovehiculul în locul unde vizibilitatea este maximă, fără a depăşi indicatorul de prioritate în cruce;", false);
+        answer23.put("să reducă viteza autovehiculului şi să traverseze cu atenţie, asigurându-se că din partea stângă sau din partea dreaptă nu se apropie un vehicul feroviar;", true);
+        answer23.put("toate raspunsurile sunt corecte;", false);
+        questions.put("Cum trebuie să procedeze conducătorul unui autovehicul la trecerea la nivel cu calea ferată, atunci când barierele sunt ridicate?", answer23);
 
         HashMap<String, Boolean> answer24 = new HashMap<>();
-        answer24.put("Dickens", true);
-        answer24.put("George Eliot", false);
-        answer24.put("Hardy", false);
-        answer24.put("None of the above", false);
-        questions.put("Moral choice is everything in the works of:", answer24);
+        answer24.put("numărul de înmatriculare sau de înregistrare este fals;", true);
+        answer24.put("starea tehnică a pneurilor este necorespunzătoare;", false);
+        answer24.put("conducătorul auto refuză să poarte centura de siguranţă;", false);
+        answer24.put("toate raspunsurile sunt corecte;", false);
+        questions.put("Un vehicul va fi imobilizat dacă:", answer24);
 
         HashMap<String, Boolean> answer25 = new HashMap<>();
-        answer25.put("Dickens", true);
-        answer25.put("George Eliot", false);
-        answer25.put("Hardy", false);
-        answer25.put("None of the above", false);
-        questions.put("Moral choice is everything in the works of:", answer25);
+        answer25.put("să fie cât mai concentrat, să ţină volanul strâns şi privirea îndreptată numai înainte şi să stea cât mai aproape de parbriz;", false);
+        answer25.put("să stea cât mai confortabil pe scaun, cu capul rezemat de tetieră şi cu ambele mâini pe volan, în zona orelor 10:00-14:00;", true);
+        answer25.put("cea mai corectă poziţie în timpul conducerii auto este aceea care previne apariţia somnului;", false);
+        answer25.put("toate raspunsurile sunt corecte;", false);
+        questions.put("Care este poziţia corectă a conducătorului auto în timpul conducerii?", answer25);
 
         HashMap<String, Boolean> answer26 = new HashMap<>();
-        answer26.put("Dickens", true);
-        answer26.put("George Eliot", false);
-        answer26.put("Hardy", false);
-        answer26.put("None of the above", false);
-        questions.put("Moral choice is everything in the works of:", answer26);
+        answer26.put("niciuna, indicatorul fiind de informare;", false);
+        answer26.put("niciuna, întrucât indicatorul nu vi se adresează;", false);
+        answer26.put("permite trecerea numai în direcţia indicată, oricare ar fi în acel moment semnalul în funcţiune al semaforului;", true);
+        answer26.put("toate raspunsurile sunt corecte;", false);
+        questions.put("Când semaforul este însoţit de lumina intermitentă de culoare verde, sub forma unei săgeţi pe fond negru către dreapta, aveţi următoarea obligaţie:", answer26);
 
         HashMap<String, Boolean> answer27 = new HashMap<>();
-        answer27.put("Dickens", true);
-        answer27.put("George Eliot", false);
-        answer27.put("Hardy", false);
-        answer27.put("None of the above", false);
-        questions.put("Moral choice is everything in the works of:", answer27);
+        answer27.put("autovehiculelor;", false);
+        answer27.put("pietonilor de pe sensul opus de circulaţie;", false);
+        answer27.put("tuturor vehiculelor cu care vă intersectaţi;", true);
+        answer27.put("toate raspunsurile sunt corecte;", false);
+        questions.put("La ieşirea din zonele rezidenţiale sau pietonale, sunteţi obligat să acordaţi prioritate:", answer27);
 
         HashMap<String, Boolean> answer28 = new HashMap<>();
-        answer28.put("Southey", true);
-        answer28.put("Tennyson", false);
-        answer28.put("Byron", false);
-        answer28.put("Wordsworth", false);
-        questions.put("Which one of the following poets was appointed Poet Laureate in the year 2823?", answer28);
+        answer28.put("nu, în nicio situaţie;", false);
+        answer28.put("da, dacă spaţiul lateral dintre vehicule permite acest lucru;", false);
+        answer28.put("da, în cazul vehiculelor care urmează să vireze la stânga, iar spaţiul rămas permite depăşirea prin dreapta;", true);
+        answer28.put("toate raspunsurile sunt gresite;", false);
+        questions.put("Pot fi depăşite autovehiculele pe partea dreaptă?", answer28);
 
         HashMap<String, Boolean> answer29 = new HashMap<>();
-        answer29.put("Wordsworth", true);
-        answer29.put("Keats", false);
-        answer29.put("Byron", false);
-        answer29.put("Blake", false);
-        questions.put("Who believed that poetry is the spontaneous overflow of emotions?", answer29);
+        answer29.put("extragerea corpilor străini din plăgi;", false);
+        answer29.put("spălarea corpilor străini cu apă curată;", false);
+        answer29.put("corpii străini nu se extrag din plăgi, întrucât se pot produce complicaţii;", true);
+        answer29.put("toate raspunsurile sunt gresite;", false);
+        questions.put("La un accidentat cu corpi străini în interiorul plăgilor, procedura corectă este:", answer29);
 
         HashMap<String, Boolean> answer30 = new HashMap<>();
-        answer30.put("Dickens", true);
-        answer30.put("George Eliot", false);
-        answer30.put("Hardy", false);
-        answer30.put("None of the above", false);
-        questions.put("Moral choice is everything in the works of:", answer30);
+        answer30.put("prin alternarea stării de vigilenţă cu cea de relaxare la volan, îndeosebi pe sectoarele de drum în aliniament;", false);
+        answer30.put("prin concentrarea permanentă doar asupra activităţilor pe care trebuie să le efectuaţi pentru conducerea autovehiculului în condiţii de siguranţă;", true);
+        answer30.put("prin punerea în funcţiune a unor surse de muzică cu intensitate sonoră mare, pentru stimularea vigilenţei în conducere;", false);
+        answer30.put("toate raspunsurile sunt corecte;", false);
+        questions.put("Printre primele cauze ale accidentelor rutiere figurează şi neatenţia în conducere. Cum poate fi evitată aceasta?", answer30);
+
 
         return questions;
     }
