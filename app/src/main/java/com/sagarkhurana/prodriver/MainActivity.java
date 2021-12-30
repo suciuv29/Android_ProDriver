@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
 
                 final Handler handler = new Handler();
                 int id = 1;
+                int constanta = 1;
                 for(int i=0;i<=10;i++) {
                     int finalId = id;
                     handler.postDelayed(new Runnable() {
@@ -64,7 +65,8 @@ public class MainActivity extends AppCompatActivity {
                             NotificationManagerCompat managerCompat = NotificationManagerCompat.from(MainActivity.this);
                             managerCompat.notify(finalId, builder.build());
                         }
-                    }, 6000*id);
+                    }, 6000*id*constanta);
+                    constanta++;
                     id=id+10;
                 }
 //
