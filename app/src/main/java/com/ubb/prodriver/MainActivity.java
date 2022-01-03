@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
                             NotificationCompat.Builder builder = new NotificationCompat.Builder(MainActivity.this, "My Notification");
                             builder.setContentTitle("ProDriver - Reminder");
-                            builder.setContentText("Salut, " + user.getUsername() + "!\n" + "Revino pentru a mai exersa pentru examenul Auto!");
+                            builder.setContentText("Salut, " + user.getUsername() + "!\n" + "Revin-o pentru a mai exersa pentru examenul Auto!");
                             builder.setSmallIcon(R.drawable.ic_launcher_background);
                             builder.setAutoCancel(true);
 
