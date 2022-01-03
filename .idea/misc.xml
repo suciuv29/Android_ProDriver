@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Vlad/Desktop/ProDriver/app/src/main/res/drawable/home_bg.xml" value="0.15052083333333333" />
+        <entry key="..\:/Users/Vlad/Desktop/ProDriver/app/src/main/res/layout/activity_main.xml" value="0.134375" />
+        <entry key="..\:/Users/Vlad/Desktop/ProDriver/app/src/main/res/layout/activity_quiz_action.xml" value="0.134375" />
+        <entry key="..\:/Users/Vlad/Desktop/ProDriver/app/src/main/res/layout/activity_quiz_option.xml" value="0.176" />
+        <entry key="..\:/Users/Vlad/Desktop/ProDriver/app/src/main/res/layout/activity_register.xml" value="0.134375" />
         <entry key="..\:/Users/Vlad/Desktop/Quiz-App-main/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2" />
         <entry key="..\:/Users/Vlad/Desktop/Quiz-App-main/app/src/main/res/drawable/a.xml" value="0.14635416666666667" />
         <entry key="..\:/Users/Vlad/Desktop/Quiz-App-main/app/src/main/res/drawable/arrow.xml" value="0.14635416666666667" />

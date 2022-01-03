@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sagarkhurana.prodriver">
+    package="com.ubb.prodriver">
 
     <application
 
@@ -10,15 +10,15 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizForFun">
-        <activity android:name="com.sagarkhurana.prodriver.RandomQuizActivity"></activity>
-        <activity android:name="com.sagarkhurana.prodriver.FinalResultActivity" />
-        <activity android:name="com.sagarkhurana.prodriver.EditPasswordActivity" />
-        <activity android:name="com.sagarkhurana.prodriver.HistoryActivity" />
-        <activity android:name="com.sagarkhurana.prodriver.RuleActivity" />
-        <activity android:name="com.sagarkhurana.prodriver.QuizOptionActivity" />
-        <activity android:name="com.sagarkhurana.prodriver.RegisterActivity" />
+        <activity android:name="com.ubb.prodriver.RandomQuizActivity"></activity>
+        <activity android:name="com.ubb.prodriver.FinalResultActivity" />
+        <activity android:name="com.ubb.prodriver.EditPasswordActivity" />
+        <activity android:name="com.ubb.prodriver.HistoryActivity" />
+        <activity android:name="com.ubb.prodriver.RuleActivity" />
+        <activity android:name="com.ubb.prodriver.QuizOptionActivity" />
+        <activity android:name="com.ubb.prodriver.RegisterActivity" />
         <activity
-            android:name="com.sagarkhurana.prodriver.LoginActivity"
+            android:name="com.ubb.prodriver.LoginActivity"
             android:theme="@style/splashScreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,7 +26,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.sagarkhurana.prodriver.MainActivity" />
+        <activity android:name="com.ubb.prodriver.MainActivity" />
     </application>
 
 </manifest>
